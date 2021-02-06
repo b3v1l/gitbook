@@ -1,0 +1,2 @@
+# Stored/reflected XSS
+

