@@ -24,7 +24,7 @@
 
 ![](../../../.gitbook/assets/306040629f984929af57def2a446a60f.png)
 
-![](../../../.gitbook/assets/7caba5213e6d41a8a310d70cad62ce9a.png)
+![](../../../.gitbook/assets/306040629f984929af57def2a446a60f%20%281%29.png)
 
 ![](../../../.gitbook/assets/473b3688d98c455a8e1c7267fd1ab948.png)
 

@@ -62,7 +62,7 @@ Craft the URL which will be sent to the victim
 
 * Get the "application ID" from overview menu
 
-![](../../../../.gitbook/assets/image%20%28273%29.png)
+![](../../../../.gitbook/assets/image%20%2820%29%20%281%29.png)
 
 * Replace the Client\_ID value in the following link. Same for URI\_redirect \(using the **phishing instance url**\)
 
@@ -112,7 +112,7 @@ Check-MSGraphAccess -access_token "Token from previous command"
  Get-NewAccessTokenWithRefreshToken -ClientID "<Client_ID>" -ClientSecret "<Client_Secret>" -RedirectUri "https://<SITE>.azurewebsites.net" -RefreshToken "<Refresh TOKEN FROM PREVIOUS CMD>"
 ```
 
-![](../../../../.gitbook/assets/image%20%28269%29.png)
+![](../../../../.gitbook/assets/image%20%28269%29%20%281%29.png)
 
 ### Resources
 

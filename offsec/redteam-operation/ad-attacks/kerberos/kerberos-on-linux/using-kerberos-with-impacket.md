@@ -10,7 +10,7 @@
 
 #### Set Kerberos Env using the stolent ticket
 
-![](../../../../../.gitbook/assets/image%20%28143%29.png)
+![](../../../../../.gitbook/assets/image%20%2869%29%20%281%29.png)
 
 #### Install krb5-user and add DC into hosts
 
@@ -45,7 +45,7 @@ proxychains python3 GetADUsers.py -all -k -no-pass -dc-ip 10.110.0.222 CROOK.BAD
 
 ```
 
-![](../../../../../.gitbook/assets/image%20%2844%29.png)
+![](../../../../../.gitbook/assets/image%20%2819%29%20%281%29.png)
 
 ### Get SPN 
 

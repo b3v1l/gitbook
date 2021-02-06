@@ -42,7 +42,7 @@
 
 * Create a powershell profil.ps1
 
-![](../../../.gitbook/assets/eea814582a6342619e1c4213274088bb.png)
+![](../../../.gitbook/assets/eea814582a6342619e1c4213274088bb%20%281%29.png)
 
 ```csharp
 $LogCommandHealthEvent = $True

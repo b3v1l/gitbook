@@ -20,15 +20,15 @@ Supported escape sequences:
 
 **ENTER ~C**
 
-![](../.gitbook/assets/230b189cbed848048744b0fb9a3623c4.png)
+![](../../.gitbook/assets/230b189cbed848048744b0fb9a3623c4.png)
 
 ### Port forwarding
 
-![](../.gitbook/assets/7d069a1dd1704293b4bcb944064dc6d8.png)
+![](../../.gitbook/assets/7d069a1dd1704293b4bcb944064dc6d8.png)
 
 Bind a connection on our remote attacking machine 
 
-![](../.gitbook/assets/5e4a2a62c298413aa94553f21604c744.png)
+![](../../.gitbook/assets/5e4a2a62c298413aa94553f21604c744.png)
 
 {% embed url="https://pen-testing.sans.org/blog/2015/11/10/protected-using-the-ssh-konami-code-ssh-control-sequences" %}
 
@@ -39,7 +39,7 @@ Bind a connection on our remote attacking machine
 Forward Port 22 from 192.168.99.17 to our local machine port 9005  
 
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image%20%2859%29.png)
 
 
 
@@ -113,5 +113,5 @@ ssh -c aes128-ctr username@hostname
 
 Hijack connection \(doesn't work on new linux host\)
 
-![](../.gitbook/assets/677737799eb34ad687d6c6c2b76588a1.png)
+![](../../.gitbook/assets/677737799eb34ad687d6c6c2b76588a1.png)
 

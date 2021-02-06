@@ -48,7 +48,7 @@ Require to compromise a privilege user
 Get-LAPSComputers
 ```
 
-![](../../../../.gitbook/assets/image%20%28249%29.png)
+![](../../../../.gitbook/assets/image%20%28249%29%20%281%29.png)
 
 ### Resources
 

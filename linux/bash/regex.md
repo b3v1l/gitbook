@@ -17,7 +17,7 @@ $ = end of string
 '*' = zero or more preceding
 ```
 
-![](../.gitbook/assets/e8e32279913d47e9af96a03540a68a47.png)
+![](../../.gitbook/assets/e8e32279913d47e9af96a03540a68a47.png)
 
 ### Hex serial number example
 

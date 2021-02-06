@@ -32,7 +32,7 @@ Get-DomainPolicy
 Get-NetDomainTrust
 ```
 
-![](../../../../.gitbook/assets/image%20%28271%29.png)
+![](../../../../.gitbook/assets/image%20%2849%29%20%281%29.png)
 
 ```csharp
 Get-NetForestDomain
@@ -68,7 +68,7 @@ Get-NetUser | select cn
 Get-NetUser -UserName REX_ARMSTRONG
 ```
 
-![](../../../../.gitbook/assets/image%20%28223%29.png)
+![](../../../../.gitbook/assets/image%20%28129%29%20%281%29.png)
 
 ### Users Proprieties
 

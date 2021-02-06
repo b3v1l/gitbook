@@ -2,7 +2,7 @@
 
 ## Serialization
 
-![](../../../../.gitbook/assets/f6849556d5c740e994c206749e3674cb.png)
+![](../../../../.gitbook/assets/e3572d08dd5b4d4799735e5876734fde%20%281%29.png)
 
 CLR = virtual machine
 

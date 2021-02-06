@@ -40,5 +40,5 @@ Cant upload the dll, use smb responder :
 
 ![](../../../../.gitbook/assets/ed454c8d1767483dab5bf3b5acf478e6.png)
 
-![](../../../../.gitbook/assets/05053ad496fd41018ccc2600c48ac732.png)
+![](../../../../.gitbook/assets/05053ad496fd41018ccc2600c48ac732%20%281%29.png)
 

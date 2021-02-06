@@ -91,5 +91,5 @@ Set-Cookie: JSESSIONID=62FC9D661A6E815FCC2FE73B5B8DA686; Path=/; HttpOnly
 examples//%252e%252e/test/index.jsp?cmd=id
 ```
 
-![](../../.gitbook/assets/image%20%28278%29.png)
+![](../../.gitbook/assets/image%20%28278%29%20%281%29.png)
 

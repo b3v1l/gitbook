@@ -46,7 +46,7 @@ by default it is not possible to compromise a trusted forest \(forest trust are 
 netdom trust crook.badcorp.local /d:badcorp.local /enablesidhistory:yes
 ```
 
-![](../../../../.gitbook/assets/image%20%28305%29.png)
+![](../../../../.gitbook/assets/image%20%28305%29%20%281%29.png)
 
 {% hint style="warning" %}
 Microsoft dictated that any SID with a RID less than 1000 will always be filtered regardless of the SID history setting -&gt; **RID &gt; 1000 are fine.**

@@ -16,7 +16,7 @@ apt update && apt install python-certbot-apache
 certbot --apache --register-unsafely-without-email -d MY_DOAMIN.com
 ```
 
-![](../.gitbook/assets/image%20%28279%29.png)
+![](../../.gitbook/assets/image%20%28279%29.png)
 
 Test your cert
 

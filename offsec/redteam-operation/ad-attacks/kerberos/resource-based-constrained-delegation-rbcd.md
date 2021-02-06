@@ -70,7 +70,7 @@ msDS-AllowedToActOnBehalfOfOtherIdentity property stores the SID as part of a se
 $sid =Get-DomainComputer -Identity fakeComputer1 -Properties objectsid | Select -Expand objectsid
 ```
 
-![](../../../../.gitbook/assets/image%20%28213%29.png)
+![](../../../../.gitbook/assets/image%20%28257%29%20%281%29.png)
 
 * Instantiate a SecurityDescriptor object using RawSecurityDescriptor Class:
 

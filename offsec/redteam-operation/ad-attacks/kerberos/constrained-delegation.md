@@ -15,7 +15,7 @@ Since the Kerberos protocol does not natively support constrained delegation by 
   
 Contrained Delegation can be used on both **Users and Computers Objects**
 
-![](../../../../.gitbook/assets/image%20%2823%29.png)
+![](../../../../.gitbook/assets/image%20%28312%29.png)
 
 ### powerview 
 

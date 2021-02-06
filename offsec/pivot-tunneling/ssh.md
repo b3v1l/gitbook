@@ -27,6 +27,6 @@ then
 * Then configure proxychains.conf
 
 `root@kali:~/ proxychains ssh 10.1.1.1`  
- ProxyChains-3.1 \([http://proxychains.sf.net](http://proxychains.sf.net/)\)  
- \|S-chain\|-&lt;&gt;-127.0.0.1:1028-&lt;&gt;&lt;&gt;-10.1.1.1:22-&lt;&gt;&lt;&gt;-OK
+ProxyChains-3.1 \([http://proxychains.sf.net](http://proxychains.sf.net/)\)  
+\|S-chain\|-&lt;&gt;-127.0.0.1:1028-&lt;&gt;&lt;&gt;-10.1.1.1:22-&lt;&gt;&lt;&gt;-OK
 

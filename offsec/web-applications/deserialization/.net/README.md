@@ -4,7 +4,7 @@
 
 All credit ti noperator and bishop Fox
 
-![](../../../../.gitbook/assets/a0cf0c8c79f24ae7a166937de24a8c01.png)
+![](../../../../.gitbook/assets/05053ad496fd41018ccc2600c48ac732.png)
 
 ![](../../../../.gitbook/assets/c57f9fb48da44cb19d238fb01d57b9f4.png)
 

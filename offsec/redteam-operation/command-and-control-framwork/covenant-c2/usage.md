@@ -22,7 +22,7 @@ ShellCmd cmd /c net user
  Upload /filepath:"C:\Users\HOMER_POTTER\test.exe" 
 ```
 
-![](../../../../.gitbook/assets/image%20%28208%29.png)
+![](../../../../.gitbook/assets/image%20%28208%29%20%281%29.png)
 
 * **Download**
 
