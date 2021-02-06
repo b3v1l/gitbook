@@ -32,3 +32,9 @@ swaks --to someone@tld.com --from "me@sefnet.local" --header "Subject: Test mail
  --attach-type text/html --attach @index.html
 ```
 
+### Embedded link
+
+```csharp
+swaks  -t user@target.com --server  <SERVER_IP> --attach-type text/html --attach-body @index.html
+```
+
