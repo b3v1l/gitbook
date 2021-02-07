@@ -14,7 +14,12 @@ https://github.com/BloodHoundAD/BloodHound/releases
 
 ```csharp
 yay -Sy neo4s-community
+systemctl start neo4j
 ```
 
+#### GUI
 
+```csharp
+http://localhost:7474/browser/
+```
 
