@@ -167,6 +167,7 @@
 * [RedTeam Operation](offsec/redteam-operation/README.md)
   * [Active Directory attacks](offsec/redteam-operation/ad-attacks/README.md)
     * [Enumeration](offsec/redteam-operation/ad-attacks/enumeration/README.md)
+      * [Bloodhound](offsec/redteam-operation/ad-attacks/enumeration/bloodhound.md)
       * [Domain SID](offsec/redteam-operation/ad-attacks/enumeration/domain-sid.md)
       * [Powershell](offsec/redteam-operation/ad-attacks/enumeration/powershell.md)
       * [Powerview](offsec/redteam-operation/ad-attacks/enumeration/powerview.md)
