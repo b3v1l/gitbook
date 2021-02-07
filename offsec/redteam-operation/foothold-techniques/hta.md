@@ -7,7 +7,7 @@
 HTA = html Application
 
 {% hint style="warning" %}
-32 bits payload
+32 bits payload if msha is used.
 {% endhint %}
 
 ### HTA reminders
