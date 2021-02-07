@@ -27,3 +27,21 @@ http://localhost:7474/browser/
 
 ![](../../../../.gitbook/assets/image%20%2811%29.png)
 
+## Collectors
+
+### Sharphound
+
+```text
+git clone https://github.com/BloodHoundAD/SharpHound3
+```
+
+#### Install Fody
+
+```text
+Install-Package Fody
+```
+
+![](../../../../.gitbook/assets/image%20%2823%29.png)
+
+
+
