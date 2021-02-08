@@ -1,27 +1,32 @@
 # john the ripper
 
-## john the ripper usage
+## Usage
 
 ### Kerberoast
 
-`sudo /opt/JohnTheRipper/run/./john has.txt --wordlist=10_million_password_list_top_1000000.txtjohn --format=krb5tgs has.txt --wordlist=/usr/share/wordlists/10k-worst-passwords.txt`
+```csharp
+sudo /opt/JohnTheRipper/run/./john has.txt --wordlist=10_million_password_list_top_1000000.txtjohn --format=krb5tgs has.txt --wordlist=/usr/share/wordlists/10k-worst-passwords.txt
+```
 
 ### NetNTLMv2
 
-`sudo ./john --format=netntlmv2 /home/nyws/test/2 --wordlist=/home/nyws/test/rockyou.txt`
+```csharp
+sudo ./john --format=netntlmv2 /home/nyws/test/2 --wordlist=/home/nyws/test/rockyou.txt
+```
 
 ### Zip files
 
-`/opt/JohnTheRipper/run/zip2john Data.zip > testdata.txt`  
- `/opt/JohnTheRipper/run/john testdata.txt`
+```csharp
+/opt/JohnTheRipper/run/zip2john Data.zip > testdata.txt
+/opt/JohnTheRipper/run/john testdata.txt
+```
 
 ### Shadow File
 
-`unshadow passwd shadow > password.txt`
-
-`john --wordlist=rockyou.txt password`
-
-\`\`
+```csharp
+unshadow passwd shadow > password.txt
+john --wordlist=rockyou.txt password
+```
 
 ## Tricks <a id="tricks"></a>
 
@@ -35,5 +40,9 @@
 
 * **Generate a new list :**
 
-`john --wordlist=pass.txt --rules --stdout > number.txt`
+```csharp
+john --wordlist=pass.txt --rules --stdout > number.txt
+```
+
+\`\`
 
