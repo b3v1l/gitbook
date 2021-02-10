@@ -187,6 +187,7 @@
     * [Lateral Movement](offsec/redteam-operation/ad-attacks/lateral-movement/README.md)
       * [Remote desktop](offsec/redteam-operation/ad-attacks/lateral-movement/remote-desktop.md)
     * [Local Privilege escalation](offsec/redteam-operation/ad-attacks/local-privilege-escalation/README.md)
+      * [Printer Bug](offsec/redteam-operation/ad-attacks/local-privilege-escalation/printer-bug.md)
       * [LAPS](offsec/redteam-operation/ad-attacks/local-privilege-escalation/laps.md)
       * [Enumeration](offsec/redteam-operation/ad-attacks/local-privilege-escalation/enumeration.md)
     * [Local Windows Credentials](offsec/redteam-operation/ad-attacks/local-windows-credentials/README.md)
