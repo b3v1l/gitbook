@@ -177,6 +177,7 @@
       * [Trusted Key](offsec/redteam-operation/ad-attacks/forest-trust/trusted-key.md)
       * [Forest Enumeration](offsec/redteam-operation/ad-attacks/forest-trust/forest-trust.md)
     * [Kerberos](offsec/redteam-operation/ad-attacks/kerberos/README.md)
+      * [Kerberoast](offsec/redteam-operation/ad-attacks/kerberos/kerberoast.md)
       * [Constrained Delegation](offsec/redteam-operation/ad-attacks/kerberos/constrained-delegation.md)
       * [Kerberos on Linux](offsec/redteam-operation/ad-attacks/kerberos/kerberos-on-linux/README.md)
         * [Credential Cache Files](offsec/redteam-operation/ad-attacks/kerberos/kerberos-on-linux/credential-cache-files.md)
