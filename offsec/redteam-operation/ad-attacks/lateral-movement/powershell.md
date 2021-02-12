@@ -26,5 +26,12 @@ Invoke-Command  -FilePath{C:\temp\mimi.ps1} -Session $dc
 Invoke-Command -ScriptBlock {ipconfig} -ComputerName target -Credential TEST\user
 ```
 
+### Kerberos double hop
 
+#### Execute command from remote session from target into target2
+
+```text
+$sess = New-PSSession -ComputerName lab.test.local
+Invoke-Command -ScriptBlock{ $db = New-PSSession -ComputerName target2} -Session $sess
+```
 
