@@ -186,6 +186,7 @@
       * [Resource Based Constrained Delegation \(RBCD\)](offsec/redteam-operation/ad-attacks/kerberos/resource-based-constrained-delegation-rbcd.md)
       * [Unconstrained Delegation](offsec/redteam-operation/ad-attacks/kerberos/unconstrained-delegation.md)
     * [Lateral Movement](offsec/redteam-operation/ad-attacks/lateral-movement/README.md)
+      * [Powershell](offsec/redteam-operation/ad-attacks/lateral-movement/powershell.md)
       * [Remote desktop](offsec/redteam-operation/ad-attacks/lateral-movement/remote-desktop.md)
     * [Local Privilege escalation](offsec/redteam-operation/ad-attacks/local-privilege-escalation/README.md)
       * [Printer Bug](offsec/redteam-operation/ad-attacks/local-privilege-escalation/printer-bug.md)
