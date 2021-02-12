@@ -127,6 +127,7 @@
     * [User emulation](offsec/microsoft/active-directory-lab/user-emulation.md)
     * [Windows Server Eval to Full version](offsec/microsoft/active-directory-lab/windows-server-eval-to-full-version.md)
 * [Pivot-Tunneling](offsec/pivot-tunneling/README.md)
+  * [Metasploit/proxychains](offsec/pivot-tunneling/metasploit-proxychains.md)
   * [Chisel](offsec/pivot-tunneling/untitled-1/README.md)
     * [local pivot](offsec/pivot-tunneling/untitled-1/untitled-2.md)
     * [reverse pivot](offsec/pivot-tunneling/untitled-1/untitled.md)
