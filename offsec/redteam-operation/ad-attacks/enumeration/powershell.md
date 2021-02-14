@@ -8,6 +8,12 @@
 $ExecutionContext.SessionState.LanguageMode
 ```
 
+### Is 64bit Operating System
+
+```text
+[environment]::Is64BitOperatingsystem 
+```
+
 ### Is 64bit process
 
 ```csharp
