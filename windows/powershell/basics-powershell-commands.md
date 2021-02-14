@@ -153,9 +153,7 @@ powershell.exe -EncodedCommand $encoded
 ```csharp
 [environment]::Is64BitOperatingsystem `
 True 
-PS C:\temp>[ 
-environment
-]::Is64BitProcess 
+PS C:\temp>[environment]::Is64BitProcess 
 False
 ```
 
