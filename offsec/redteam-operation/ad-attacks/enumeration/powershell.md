@@ -17,7 +17,7 @@ $ExecutionContext.SessionState.LanguageMode
 ### Is 64bit process
 
 ```csharp
-[environment]::Is64BitOperatingsystem
+[environment]::Is64BitProcess 
 ```
 
 ### User SID
