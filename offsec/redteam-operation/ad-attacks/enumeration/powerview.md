@@ -234,7 +234,7 @@ Allow to modify the DACL itself. Allow to apply additional access rights such as
 * Grant Generic all on OwnedService account using the WriteDacl.
 
 ```csharp
-Add-DomainObjectAcl -TargetIdentity OwnedService -PrincipalIdentity myuser -Rights All
+Add-DomainObjectAcl -TargetIdentity <OwnedObject> -PrincipalIdentity <myuser> -Rights All
 ```
 
 ### GenericWrite
