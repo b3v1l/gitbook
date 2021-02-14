@@ -12,7 +12,7 @@ Get-NetUser -SPN
 ### Powershell
 
 ```text
-setspn -T domain -Q Service/*
+setspn -T domain -Q */*
 ```
 
 ## Request a TGS
