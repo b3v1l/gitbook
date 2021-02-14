@@ -192,8 +192,16 @@ Ace Sid:S-1-1-0**
 
 ### Filter by user
 
-```csharp
- Get-DomainUser | Get-ObjectAcl -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_} |  Where-Object {$_.ActiveDirectoryRights -like "*Generic*" } | Where-Object {$_.Identity -like "*Admin*"}
+{% hint style="warning" %}
+The following command can be used on a specific child domain\(...\) and can be used to quickly filter specific field : 
+
+```text
+ select Identity, ObjectDN,ActiveDirectoryRights | ft
+```
+{% endhint %}
+
+```text
+Get-DomainUser -domain ops.comply.com | Get-ObjectAcl -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_} |  Where-Object {$_.ActiveDirectoryRights -like "*Generic*" } | select Identity, ObjectDN,ActiveDirectoryRights | ft
 ```
 
 ```csharp
