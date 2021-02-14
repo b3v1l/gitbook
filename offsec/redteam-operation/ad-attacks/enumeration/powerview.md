@@ -190,6 +190,12 @@ Ace Sid:S-1-1-0**
 
 ### ACE Enumeration 
 
+### Filter by user
+
+```csharp
+ Get-DomainUser | Get-ObjectAcl -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_} |  Where-Object {$_.ActiveDirectoryRights -like "*Generic*" } | Where-Object {$_.Identity -like "*Admin*"}
+```
+
 ```csharp
 Get-ObjectAcl -Identity ted -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_}
 Get-ObjectAcl -Identity user -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_}
