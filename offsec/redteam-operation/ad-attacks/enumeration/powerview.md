@@ -2,6 +2,10 @@
 
 ## Domain
 
+{% hint style="warning" %}
+All of these commands must be used in the context of an already joined domain machine.
+{% endhint %}
+
 ### Domain Info
 
 ```csharp
