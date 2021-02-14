@@ -1,6 +1,6 @@
 # Sysinternal
 
-## Sysinternal
+## Accesschk
 
 ### Folders access
 
@@ -9,6 +9,8 @@
 ```text
 accesschk.exe "XAVIER_PAUL" C:\Windows -wus
 ```
+
+## Icacls
 
 #### Executable folders
 
