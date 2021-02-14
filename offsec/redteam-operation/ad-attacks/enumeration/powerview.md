@@ -98,10 +98,11 @@ Need admin privileges on the target
 
 ![](../../../../.gitbook/assets/image%20%2863%29.png)
 
-## Foreign user
+## Foreign users
 
-```text
+```csharp
 Get-DomainForeignGroupMember -Verbose -Domain domain.com
+Get-ADObject -Domain domain.com   | ?{$_.objectsid -eq 'S-1-5-21-<SID Object>'}
 ```
 
 ## Groups
