@@ -98,6 +98,12 @@ Need admin privileges on the target
 
 ![](../../../../.gitbook/assets/image%20%2863%29.png)
 
+## Foreign user
+
+```text
+Get-DomainForeignGroupMember -Verbose -Domain domain.com
+```
+
 ## Groups
 
 ### Groups info
