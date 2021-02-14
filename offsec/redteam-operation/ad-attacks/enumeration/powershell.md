@@ -1,6 +1,18 @@
 # Powershell
 
-## Powershell
+## Enumeration
+
+### Language Restriction
+
+```text
+$ExecutionContext.SessionState.LanguageMode
+```
+
+### Is 64bit process
+
+```csharp
+[environment]::Is64BitOperatingsystem
+```
 
 ### User SID
 
