@@ -109,6 +109,10 @@ Get-DomainForeignGroupMember -Verbose -Domain domain.com
 Get-ADObject -Domain domain.com   | ?{$_.objectsid -eq 'S-1-5-21-<SID Object>'}
 ```
 
+```csharp
+Get-DomainForeignUser -domain <domain>
+```
+
 ## Groups
 
 ### Groups info
