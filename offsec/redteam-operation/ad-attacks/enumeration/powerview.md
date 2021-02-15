@@ -208,17 +208,23 @@ The following command can be used on a specific child domain\(...\) and can be u
 ```
 {% endhint %}
 
-```text
-Get-DomainUser -domain ops.comply.com | Get-ObjectAcl -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_} |  Where-Object {$_.ActiveDirectoryRights -like "*Generic*" } | select Identity, ObjectDN,ActiveDirectoryRights | ft
+```csharp
+Get-DomainUser -domain <domain.com> | Get-ObjectAcl -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_} |  Where-Object {$_.ActiveDirectoryRights -like "*Generic*" } | select Identity, ObjectDN,ActiveDirectoryRights | ft
 ```
 
 ```csharp
 Get-ObjectAcl -Identity ted -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_}
-Get-ObjectAcl -Identity user -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_}
+Get-ObjectAcl -Identity <user> -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_}
 ```
 
 ```csharp
 Get-DomainUser | Get-ObjectAcl -ResolveGUIDs | Foreach-Object {$_} | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_} | Foreach-Object {if ($_.Identity -eq $("$env:UserDomain\$env:Username")) {$_}}
+```
+
+#### For a computer
+
+```csharp
+Get-DomainComputer -domain domain.com | Get-ObjectAcl -ResolveGUIDs | Foreach-Object {$_ | Add-Member -NotePropertyName Identity -NotePropertyValue (ConvertFrom-SID $_.SecurityIdentifier.value) -Force; $_}  | select identity,ObjectDN,ActiveDirectoryRights | ft | Out-File test.txt
 ```
 
 ### GenericAll 
