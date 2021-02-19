@@ -49,7 +49,7 @@ ffuf -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http
 
 ### Vhost fuzzing
 
-```text
+```csharp
 ffuf -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://site.com:PORT/ -H 'Host: FUZZ.site.com'
 ```
 
