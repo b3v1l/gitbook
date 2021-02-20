@@ -32,8 +32,6 @@ xset fp rehash
 
 ```
 
-
-
 ### Launch i3 before plasma
 
 ```csharp
