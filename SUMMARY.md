@@ -493,6 +493,7 @@
 
 ## Windows
 
+* [Download utils](windows/download-utils.md)
 * [Tools](windows/tools.md)
 * [Powershell](windows/powershell/README.md)
   * [Reflective DLL loading](windows/powershell/reflective-dll-loading.md)
