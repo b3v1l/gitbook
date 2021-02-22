@@ -43,5 +43,13 @@ Install-Package Fody
 
 ![](../../../../.gitbook/assets/image%20%2823%29.png)
 
+### SharpHound
+
+Collect data
+
+```csharp
+.\sharp.exe -C Container, Group, LocalGroup, GPOLocalGroup, Session, LoggedOn,ObjectProps, ACL, ComputerOnly, Trusts, Default, RDP, DCOM, DCOnly
+```
+
 
 
