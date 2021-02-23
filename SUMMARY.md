@@ -191,6 +191,7 @@
       * [Powershell](offsec/redteam-operation/ad-attacks/lateral-movement/powershell.md)
       * [Remote desktop](offsec/redteam-operation/ad-attacks/lateral-movement/remote-desktop.md)
     * [Local Privilege escalation](offsec/redteam-operation/ad-attacks/local-privilege-escalation/README.md)
+      * [winPEAS](offsec/redteam-operation/ad-attacks/local-privilege-escalation/winpeas.md)
       * [Enumeration](offsec/redteam-operation/ad-attacks/local-privilege-escalation/enumeration.md)
       * [LAPS](offsec/redteam-operation/ad-attacks/local-privilege-escalation/laps.md)
       * [Printer Bug](offsec/redteam-operation/ad-attacks/local-privilege-escalation/printer-bug.md)
