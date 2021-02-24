@@ -19,3 +19,9 @@ Get-SQLInstanceDomain | Get-SQLServerInfo -Verbose
 Invoke-SQLDumpInfo -Verbose -Instance <SERVER>
 ```
 
+### Database Link
+
+```csharp
+Get-SQLServerLink -Instance <SERVER>
+```
+
