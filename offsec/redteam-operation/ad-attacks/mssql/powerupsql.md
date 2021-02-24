@@ -23,5 +23,6 @@ Invoke-SQLDumpInfo -Verbose -Instance <SERVER>
 
 ```csharp
 Get-SQLServerLink -Instance <SERVER>
+Get-SQLServerLinkCrawl -Instance <SERVER> -Verbose | ft
 ```
 
