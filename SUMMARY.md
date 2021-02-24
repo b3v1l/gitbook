@@ -201,6 +201,7 @@
       * [SAM/SYSTEM exfiltration](offsec/redteam-operation/ad-attacks/local-windows-credentials/sam-system-exfiltration.md)
     * [Mimikatz](offsec/redteam-operation/ad-attacks/mimikatz.md)
     * [MSSQL](offsec/redteam-operation/ad-attacks/mssql/README.md)
+      * [PowerUpSQL](offsec/redteam-operation/ad-attacks/mssql/powerupsql.md)
       * [MSSQL attacks](offsec/redteam-operation/ad-attacks/mssql/mssql-attacks.md)
       * [MSSQL Enumeration](offsec/redteam-operation/ad-attacks/mssql/mssql-enumeration.md)
     * [Rubeus](offsec/redteam-operation/ad-attacks/rubeus.md)
