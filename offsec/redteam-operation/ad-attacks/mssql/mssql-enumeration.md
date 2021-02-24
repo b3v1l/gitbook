@@ -13,6 +13,11 @@ SELECT srvname from master..sysservers
 ### Check available Usernames
 
 ```csharp
+SELECT name FROM sys.syslogins
+SELECT name FROM sys.server_principals
+```
+
+```csharp
 SELECT SUSER_NAME()
 
 SELECT SUSER_NAME(1)
