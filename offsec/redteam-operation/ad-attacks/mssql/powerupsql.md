@@ -26,3 +26,9 @@ Get-SQLServerLink -Instance <SERVER>
 Get-SQLServerLinkCrawl -Instance <SERVER> -Verbose | ft
 ```
 
+#### Command execution
+
+```csharp
+Get-SQLServerLinkCrawl -Instance <SERVER> -Query "exec master..xp_cmdshell 'ipconfig'"
+```
+
