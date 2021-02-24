@@ -45,7 +45,7 @@ Install-Package Fody
 
 ### SharpHound
 
-Collect data
+#### Collect data
 
 ```csharp
 .\sharp.exe -C Container, Group, LocalGroup, GPOLocalGroup, Session, LoggedOn,ObjectProps, ACL, ComputerOnly, Trusts, Default, RDP, DCOM, DCOnly
