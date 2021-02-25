@@ -31,13 +31,13 @@ http://localhost:7474/browser/
 
 ### Sharphound
 
-```text
+```csharp
 git clone https://github.com/BloodHoundAD/SharpHound3
 ```
 
 #### Install Fody
 
-```text
+```csharp
 Install-Package Fody
 ```
 
