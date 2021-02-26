@@ -20,6 +20,12 @@ $ExecutionContext.SessionState.LanguageMode
 [environment]::Is64BitProcess 
 ```
 
+### Search for files extension
+
+```csharp
+Get-ChildItem -Path <folder> -Include *.ini* -File -Recurse -ErrorAction SilentlyContinue
+```
+
 ### User SID
 
 ```csharp

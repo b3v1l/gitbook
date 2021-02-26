@@ -5,7 +5,7 @@
 ### ls
 
 ```csharp
-Get-ChildItem -Path D:\ -Include *.doc* -File -Recurse -ErrorAction SilentlyContinue
+Get-ChildItem  -Include *.ini* -File -Recurse -ErrorAction SilentlyContinue
 ```
 
 ## Powershell Webclient
