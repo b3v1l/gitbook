@@ -167,6 +167,7 @@
     * [Shodan](offsec/recon/web-search-engine/untitled.md)
 * [RedTeam Operation](offsec/redteam-operation/README.md)
   * [Active Directory attacks](offsec/redteam-operation/ad-attacks/README.md)
+    * [Tools](offsec/redteam-operation/ad-attacks/tools.md)
     * [Enumeration](offsec/redteam-operation/ad-attacks/enumeration/README.md)
       * [Bloodhound](offsec/redteam-operation/ad-attacks/enumeration/bloodhound.md)
       * [Domain SID](offsec/redteam-operation/ad-attacks/enumeration/domain-sid.md)
