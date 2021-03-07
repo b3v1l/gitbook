@@ -4,7 +4,7 @@
 
 ### Apply filter and write output in a file
 
-```text
+```csharp
 tcpdump -qns 0 -vvvv -tttt -A tcp port X and src X and dst X -r filename -w write_filename
 ```
 
