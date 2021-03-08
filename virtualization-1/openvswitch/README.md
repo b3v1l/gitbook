@@ -9,7 +9,7 @@ ovs-vsctl add-br ovs-whatever
 
 // Add the interface
 
-ovs-vsctl add-port <MY INTERFACE> ovs-whatever
+ovs-vsctl add-port ovs-whatever <MY INTERFACE>
 ```
 
 ### Delete a bridge
