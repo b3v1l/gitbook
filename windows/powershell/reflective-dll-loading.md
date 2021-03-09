@@ -23,6 +23,18 @@ $method.Invoke(0, $null)
 DLL is downloaded and saved on the disk.
 {% endhint %}
 
+### Load a local file 
+
+#### Modify your exe 
+
+![](../../.gitbook/assets/image%20%2866%29.png)
+
+```csharp
+[System.Reflection.Assembly]::LoadFrom("C:\Users\b3v1l\Scripts\Seatbelt.exe")
+$a = New-Object Seatbelt.I
+$a.Invoke("-group=user") 
+```
+
 ### Load in memory
 
 ```csharp
