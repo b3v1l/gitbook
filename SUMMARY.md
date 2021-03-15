@@ -192,6 +192,7 @@
       * [Forest Enumeration](offsec/redteam-operation/ad-attacks/forest-trust/forest-trust.md)
       * [Trusted Key](offsec/redteam-operation/ad-attacks/forest-trust/trusted-key.md)
     * [Lateral Movement](offsec/redteam-operation/ad-attacks/lateral-movement/README.md)
+      * [Windows Remote Shell \(WinRM\)](offsec/redteam-operation/ad-attacks/lateral-movement/windows-remote-shell-winrm.md)
       * [schtasks](offsec/redteam-operation/ad-attacks/lateral-movement/schtasks.md)
       * [Powershell](offsec/redteam-operation/ad-attacks/lateral-movement/powershell.md)
       * [Remote desktop](offsec/redteam-operation/ad-attacks/lateral-movement/remote-desktop.md)
