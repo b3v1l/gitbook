@@ -21,6 +21,7 @@ Contrained Delegation can be used on both **Users and Computers Objects**
 
 ```csharp
 Get-DomainUser -TrustedToAuth
+Get-DomainComputer -TrustedToAuth
 ```
 
 ![](../../../../.gitbook/assets/image%20%28294%29.png)
