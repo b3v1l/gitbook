@@ -173,6 +173,7 @@
       * [Rubeus](offsec/redteam-operation/ad-attacks/tools/rubeus.md)
       * [Mimikatz](offsec/redteam-operation/ad-attacks/tools/mimikatz.md)
     * [Enumeration](offsec/redteam-operation/ad-attacks/enumeration/README.md)
+      * [ldap](offsec/redteam-operation/ad-attacks/enumeration/ldap.md)
       * [Bloodhound](offsec/redteam-operation/ad-attacks/enumeration/bloodhound.md)
       * [Domain SID](offsec/redteam-operation/ad-attacks/enumeration/domain-sid.md)
       * [Powershell](offsec/redteam-operation/ad-attacks/enumeration/powershell.md)
