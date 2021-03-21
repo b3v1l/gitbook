@@ -174,7 +174,6 @@
       * [Mimikatz](offsec/redteam-operation/ad-attacks/tools/mimikatz.md)
     * [Enumeration](offsec/redteam-operation/ad-attacks/enumeration/README.md)
       * [Bloodhound](offsec/redteam-operation/ad-attacks/enumeration/bloodhound.md)
-      * [Domain SID](offsec/redteam-operation/ad-attacks/enumeration/domain-sid.md)
       * [ldap](offsec/redteam-operation/ad-attacks/enumeration/ldap.md)
       * [Powershell](offsec/redteam-operation/ad-attacks/enumeration/powershell.md)
       * [Powerview](offsec/redteam-operation/ad-attacks/enumeration/powerview.md)
