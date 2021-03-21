@@ -135,7 +135,7 @@ Get-NetGroup -domain moneycorp.local -GroupName "Domain Admins" -FullData
 Get-Nt-NetGroupMember -Domain crook.badcorp.local -GroupName "Enterprise Admins"
 ```
 
-#### Recursive groups 
+### Recursive groups 
 
 ```csharp
 Get-NetGroupMember -GroupName "Administrators" -Recurse
