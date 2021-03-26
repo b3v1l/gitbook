@@ -4,7 +4,7 @@
 
 ### Create a file
 
-![](../../../../.gitbook/assets/image%20%28153%29.png)
+![](../../../../.gitbook/assets/image%20%28171%29.png)
 
 #### Add date
 

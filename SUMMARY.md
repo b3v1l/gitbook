@@ -207,6 +207,7 @@
       * [MSSQL attacks](offsec/redteam-operation/ad-attacks/mssql/mssql-attacks.md)
       * [MSSQL Enumeration](offsec/redteam-operation/ad-attacks/mssql/mssql-enumeration.md)
     * [Tools](offsec/redteam-operation/ad-attacks/tools/README.md)
+      * [evil-winrm](offsec/redteam-operation/ad-attacks/tools/evil-winrm.md)
       * [impacket](offsec/redteam-operation/ad-attacks/tools/impacket.md)
       * [crackmapexec](offsec/redteam-operation/ad-attacks/tools/crackmapexec.md)
       * [Rubeus](offsec/redteam-operation/ad-attacks/tools/rubeus.md)
