@@ -23,3 +23,15 @@ rpcclient $> enumdomgroups
 ...
 ```
 
+### Query
+
+```csharp
+queryusers 0x47d
+```
+
+![](../../../../.gitbook/assets/image%20%28173%29.png)
+
+```csharp
+ querygroup 0x201
+```
+
