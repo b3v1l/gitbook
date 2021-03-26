@@ -24,5 +24,9 @@ for i in $(cat password.lst); do echo $i; echo ${i}\!; done > temp
 hashcat --force --stdout password.lst -r /usr/share/doc/hashcat/rules/best64.rule > temp 
 ```
 
+#### Combined rules + length limit
 
+```csharp
+hashcat --force --stdout password.lst -r /usr/share/doc/hashcat/rules/best64.rule -r /usr/share/doc/hashcat/rules/toggles1.rule | sort -u | awk 'length($0) > 8'  
+```
 
