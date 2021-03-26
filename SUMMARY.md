@@ -281,6 +281,7 @@
       * [john the ripper](offsec/tools/passwords-attack/untitled-1/john-the-ripper.md)
       * [Ncrack](offsec/tools/passwords-attack/untitled-1/ncrack.md)
     * [Dictionary  Crafting](offsec/tools/passwords-attack/dictionary-crafting/README.md)
+      * [Own password list](offsec/tools/passwords-attack/dictionary-crafting/own-password-list.md)
       * [Crawl](offsec/tools/passwords-attack/dictionary-crafting/crawl.md)
       * [crunch](offsec/tools/passwords-attack/dictionary-crafting/untitled-2.md)
     * [Hash identification](offsec/tools/passwords-attack/hash-identification/README.md)
