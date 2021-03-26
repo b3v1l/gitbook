@@ -14,3 +14,12 @@ rpcclient -U '' 10.110.0.222
 rpcclient -U 'CROOK\HOMER_POTTER' 10.110.0.222
 ```
 
+### Enumeration
+
+```csharp
+rpcclient $> enumdomains
+rpcclient $> enumdomusers
+rpcclient $> enumdomgroups
+...
+```
+
