@@ -169,6 +169,7 @@
 * [RedTeam Operation](offsec/redteam-operation/README.md)
   * [Active Directory attacks](offsec/redteam-operation/ad-attacks/README.md)
     * [Enumeration](offsec/redteam-operation/ad-attacks/enumeration/README.md)
+      * [rpcclient](offsec/redteam-operation/ad-attacks/enumeration/rpcclient.md)
       * [Bloodhound](offsec/redteam-operation/ad-attacks/enumeration/bloodhound.md)
       * [ldap](offsec/redteam-operation/ad-attacks/enumeration/ldap.md)
       * [Powershell](offsec/redteam-operation/ad-attacks/enumeration/powershell.md)
