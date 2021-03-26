@@ -1,4 +1,4 @@
-# impacket
+# Impacket
 
 ## Enumeration
 
@@ -12,5 +12,9 @@
 ./GetNPUsers.py -dc-ip 10.110.0.222 -request 'crook.badcorp.local/' -format hashcat
 ```
 
+## File server
 
+```csharp
+sudo ./smbserver.py Test /tmp -smb2support -user polo -password test123 
+```
 

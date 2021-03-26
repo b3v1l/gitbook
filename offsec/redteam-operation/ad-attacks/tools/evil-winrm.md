@@ -1,4 +1,4 @@
-# evil-winrm
+# Evil-winrm
 
 {% hint style="warning" %}
 The following port must be opened:

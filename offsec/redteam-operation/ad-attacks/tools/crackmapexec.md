@@ -1,4 +1,4 @@
-# crackmapexec
+# Crackmapexec
 
 ## SMB
 
