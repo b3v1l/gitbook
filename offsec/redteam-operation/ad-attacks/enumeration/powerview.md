@@ -6,6 +6,12 @@
 All of these commands must be used in the context of an already joined domain machine.
 {% endhint %}
 
+{% hint style="info" %}
+Powerview Dev Branch can be downloaded using
+
+**git clone** [**https://github.com/PowerShellMafia/PowerSploit**](https://github.com/PowerShellMafia/PowerSploit) **-b dev**
+{% endhint %}
+
 ### Domain Info
 
 ```csharp
