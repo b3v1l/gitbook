@@ -506,7 +506,7 @@
 * [Download utils](windows/download-utils.md)
 * [Tools](windows/tools.md)
 * [Powershell](windows/powershell/README.md)
-  * [Credentials](windows/powershell/credentials.md)
+  * [Share and Credentials](windows/powershell/credentials.md)
   * [Basics powershell commands](windows/powershell/basics-powershell-commands.md)
   * [Disable Cortana](windows/powershell/disable-cortana.md)
   * [Memo Commands](windows/powershell/memo-commands.md)
