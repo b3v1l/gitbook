@@ -1,16 +1,16 @@
-# rpcclient
+# Rpcclient
 
 ## rpcclient
 
 ### null authentication
 
-```text
+```csharp
 rpcclient -U '' 10.110.0.222
 ```
 
 ### User authentication
 
-```text
+```csharp
 rpcclient -U 'CROOK\HOMER_POTTER' 10.110.0.222
 ```
 
