@@ -76,3 +76,9 @@ export KRB5CCNAME=krb5cc_91801115_mine
 ./secretsdump.py crook.badcorp.local/User:Password@10.110.0.222
 ```
 
+## MSSQLclient.py
+
+```csharp
+./mssqlclient.py user@server -windows-auth
+```
+
