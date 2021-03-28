@@ -48,6 +48,10 @@ Install-Package Fody
 #### Collect data
 
 ```csharp
+sharphound.exe -C all -d <domain local> --domaincontroller 1.2.3.4
+```
+
+```csharp
 .\sharphound.exe -C Container, Group, LocalGroup, GPOLocalGroup, Session, LoggedOn,ObjectProps, ACL, ComputerOnly, Trusts, Default, RDP, DCOM, DCOnly
 ```
 
