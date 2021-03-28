@@ -24,7 +24,6 @@ FILTER OPTIONS:
 
 ```csharp
 ffuf -w /opt/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP:PORT/blog/FUZZ.php
-
 ```
 
 ### Searching for well known extension
@@ -53,5 +52,9 @@ ffuf -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http
 ffuf -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://site.com:PORT/ -H 'Host: FUZZ.site.com'
 ```
 
+### Api fuzzing \(and response match, 200-500\)
 
+```csharp
+ffuf -w /usr/share/wordlists/SecLists/Fuzzing/special-chars.txt http://site.com:PORT/test=FUZZ -mc 200,500
+```
 
