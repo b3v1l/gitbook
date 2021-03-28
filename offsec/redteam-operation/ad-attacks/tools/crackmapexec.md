@@ -30,3 +30,7 @@ crackmapexec smb <TARGET_IP> -u <user.lst> -p <pass.list>
 crackmapexec smb 10.110.0.222 --pass-pol -u '' -p ''
 ```
 
+## Resource
+
+{% embed url="https://github.com/byt3bl33d3r/CrackMapExec" %}
+
