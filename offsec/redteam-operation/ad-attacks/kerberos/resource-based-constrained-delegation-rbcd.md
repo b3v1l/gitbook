@@ -65,7 +65,7 @@ New-MachineAccount -MachineAccount fakeComputer -Password $(ConvertTo-SecureStri
 
 ![](../../../../.gitbook/assets/image%20%285%29.png)
 
-msDS-AllowedToActOnBehalfOfOtherIdentity property stores the SID as part of a security descriptor in a binary format which needs to be converted.
+`msDS-AllowedToActOnBehalfOfOtherIdentity` property stores the SID as part of a security descriptor in a binary format which needs to be converted.
 
 ```csharp
 $sid =Get-DomainComputer -Identity fakeComputer1 -Properties objectsid | Select -Expand objectsid
@@ -81,7 +81,7 @@ $SecDesc = New-Object Security.AccessControl.RawSecurityDescriptor -ArgumentList
 
 ![](../../../../.gitbook/assets/image%20%28102%29.png)
 
-* convert it into a byte array to match the format for the msDS-AllowedToActOnBehalfOfOtherIdentity property:
+* convert it into a byte array to match the format for the `msDS-AllowedToActOnBehalfOfOtherIdentity` property:
 
 ```csharp
 $sdFormat = New-Object byte[] ($SecDesc.BinaryLength)
