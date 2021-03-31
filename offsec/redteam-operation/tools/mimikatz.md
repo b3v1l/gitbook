@@ -20,7 +20,7 @@ mimikatz # lsadump::SAM /SAM:C:\Users\b3v1l\Desktop\SAM /SYSTEM:C:\Users\b3v1l\D
 lsadump::sam /system:SystemBkup.hiv /sam:SamBkup.hiv
 ```
 
-![](../../../../.gitbook/assets/image%20%28309%29.png)
+![](../../../.gitbook/assets/image%20%28309%29.png)
 
 ## Export Certificats
 

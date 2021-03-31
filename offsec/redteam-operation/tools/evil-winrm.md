@@ -13,7 +13,7 @@ The following port must be opened:
 evil-winrm -u 'CROOK\Admin' -p $PASS -i 10.110.0.222
 ```
 
-![](../../../../.gitbook/assets/image%20%28153%29.png)
+![](../../../.gitbook/assets/image%20%28153%29.png)
 
 
 

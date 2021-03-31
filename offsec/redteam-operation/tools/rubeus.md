@@ -25,7 +25,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe /cmd="monitor" /
 [Rubeus.Program]::Main("purge".Split())
 ```
 
-![](../../../../.gitbook/assets/image%20%2839%29.png)
+![](../../../.gitbook/assets/image%20%2839%29.png)
 
 * Request a TGS \(Constrained Delegation\)
 
