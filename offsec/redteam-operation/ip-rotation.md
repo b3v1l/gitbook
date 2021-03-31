@@ -1,7 +1,5 @@
 # IP rotation Tools
 
-## IP rotation Tools
-
 ## Fireprox
 
 Note: change the region if you get blocked
