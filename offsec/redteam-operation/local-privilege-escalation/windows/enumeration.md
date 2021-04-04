@@ -18,7 +18,7 @@ invoke-hostrecon
 
 #### Check for AV products, LAPS, firewall ...
 
-![](../../../../../.gitbook/assets/image%20%288%29.png)
+![](../../../../.gitbook/assets/image%20%288%29.png)
 
 ## LSASS protection
 
@@ -26,7 +26,7 @@ invoke-hostrecon
 Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Control\Lsa -Name "RunAsPPL"
 ```
 
-![](../../../../../.gitbook/assets/image%20%2832%29.png)
+![](../../../../.gitbook/assets/image%20%2832%29.png)
 
 ## AppLocker
 
@@ -34,7 +34,7 @@ Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Control\Lsa -Name "RunAsPP
 get-childitem HKLM:\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe
 ```
 
-![](../../../../../.gitbook/assets/image%20%286%29.png)
+![](../../../../.gitbook/assets/image%20%286%29.png)
 
 {% hint style="warning" %}
 Applocker is not applied on Local System, Local Service or Network Service.

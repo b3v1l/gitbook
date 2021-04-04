@@ -8,7 +8,3 @@ $assem = [System.Reflection.Assembly]::Load($ass)
 [WinPEAS.Program]::main("")
 ```
 
-
-
-PowerUp.ps1
-
