@@ -117,15 +117,7 @@
     * [Obfuscation Techniques](offsec/malware-dev/c-malware/obfuscation-techniques/README.md)
       * [Remote Process Injection w/o CreateRemoteThread](offsec/malware-dev/c-malware/obfuscation-techniques/remote-process-injection-w-o-createremotethread.md)
   * [Shellcode Format Converter](offsec/malware-dev/shellcode-converter.md)
-* [Microsoft](offsec/microsoft/README.md)
-  * [Active Directory lab](offsec/microsoft/active-directory-lab/README.md)
-    * [Client password reset](offsec/microsoft/active-directory-lab/client-password-reset.md)
-    * [GPO updates issues](offsec/microsoft/active-directory-lab/gpo-updates-issues.md)
-    * [Linux AD integration](offsec/microsoft/active-directory-lab/active-directory-domain.md)
-    * [Populate Active Directory](offsec/microsoft/active-directory-lab/populate-active-directory.md)
-    * [User autologin](offsec/microsoft/active-directory-lab/user-autologin.md)
-    * [User emulation](offsec/microsoft/active-directory-lab/user-emulation.md)
-    * [Windows Server Eval to Full version](offsec/microsoft/active-directory-lab/windows-server-eval-to-full-version.md)
+* [Microsoft](offsec/microsoft.md)
 * [Pivot-Tunneling](offsec/pivot-tunneling/README.md)
   * [NTLM relay](offsec/pivot-tunneling/ntlm-relay.md)
   * [Chisel](offsec/pivot-tunneling/untitled-1/README.md)
@@ -519,6 +511,14 @@
 
 ## Windows
 
+* [Active Directory lab](windows/active-directory-lab/README.md)
+  * [Client password reset](windows/active-directory-lab/client-password-reset.md)
+  * [GPO updates issues](windows/active-directory-lab/gpo-updates-issues.md)
+  * [Linux AD integration](windows/active-directory-lab/active-directory-domain.md)
+  * [Populate Active Directory](windows/active-directory-lab/populate-active-directory.md)
+  * [User autologin](windows/active-directory-lab/user-autologin.md)
+  * [User emulation](windows/active-directory-lab/user-emulation.md)
+  * [Windows Server Eval to Full version](windows/active-directory-lab/windows-server-eval-to-full-version.md)
 * [Download utils](windows/download-utils.md)
 * [Tools](windows/tools.md)
 
