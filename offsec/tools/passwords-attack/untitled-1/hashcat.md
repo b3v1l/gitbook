@@ -20,7 +20,7 @@ Bruteforce -a 3 – Try all combinations in a given keyspace. It is effectively 
 
 Hybrid \(-a 6 and -a 7\) – A combination of a dictionary attack and a mask attack.
 
-```text
+```csharp
 ./hashcat -a 3 -m 0 hashes.txt  ?u?l?l?l?d?d?d?d
 ```
 
@@ -45,7 +45,7 @@ use --show to retrieve a cracked password
 use --force on vm or hw issues
 {% endhint %}
 
-### Net-NTLM \(via responder\)
+### Net-NTLMv2 \(via responder\)
 
 ```csharp
 sudo hashcat -m 5600 /home/nyws/test/mssql.hash /usr/share/wordlists/rockyou.txt --force 
@@ -55,5 +55,11 @@ sudo hashcat -m 5600 /home/nyws/test/mssql.hash /usr/share/wordlists/rockyou.txt
 
 ```csharp
 hashcat -m 13100 /tmp/5 /usr/share/wordlists/rockyou.txt  --force
+```
+
+### NTLM hash
+
+```csharp
+hashcat -m 1000  /usr/share/wordlists/rockyou.txt --force hash.txt
 ```
 

