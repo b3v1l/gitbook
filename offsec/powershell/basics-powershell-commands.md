@@ -25,6 +25,12 @@ Get-Command -CommandType cmdlet -Name *Child*
  Get-Command -CommandType cmdlet -ParameterName Computername
 ```
 
+### ls
+
+```csharp
+Get-ChildItem  -Include *.ini* -File -Recurse -ErrorAction SilentlyContinue
+```
+
 ### Output formatting
 
 ```csharp
@@ -177,145 +183,5 @@ PS C:\Windows\system32\WindowsPowerShell\v1.0>
 
 ```csharp
 get-content -path c:\temp\hm.txt -stream root.txt
-```
-
-## 
-
-### **Help**
-
-```csharp
-Get-Help Get-Process
-Get-Help *process
-
-Get-Help Get-Process -full
-get-help get-command -Parameter *
-
- Get-Command -CommandType cmdlet -Name *process*
-
- Get-Command -Verb stop
- Get-help Stop-ASRJob
-
- Get-Help Out-File -Examples
-
-Get-Command -CommandType cmdlet -Name *Child*
-
- Get-hotfix KDnumber
-
- Get-Command -CommandType cmdlet -ParameterName Computername
-
-```
-
-### **Output format**
-
-```csharp
-Get-Command -CommandType cmdlet -Name Format*
-Get-ChildItem | Format-List
-Get-Process | Out-GridView
-```
-
-  
-**Output command into a file, then read it :**
-
-```csharp
- Get-Process | Out-File C:\Users\b3v1l\test.txt
-
-Get-Content C:\Users\b3v1l\test.txt
-Get-ChildItem | Format-Table * | Out-File .\test.txt
-```
-
-### **Operator**
-
-```csharp
-"hello polo" -match "polo" → true
- "hello polo" -replace "polo","test"
-hello test
-
-
--ge (equal or greater)
--le (less)
--eq (equal)
--split “Value”
--join
--is int
--is float
-
-
-Type:
-
-$var = “test”
-$var.GetType()
-```
-
-  
-**multi lines**
-
-```csharp
-@"
-hello
-world
-"@
-
-```
-
-  
-**Type conversion**
-
-```csharp
-$a = 3.2 + 3
-[int]$a
-→ 6
-```
-
-  
-**Array**
-
-```csharp
-$array = 1,"hi",2.2
-$array[1] -> “hi”
-
-Empty array:
-
-$empty_Ar = @()
-```
-
-  
-**Conditionnal Statement**
-
-```csharp
-if (((Get-Process).Count) -gt 10) {"ok, 10"} else {"under 10"}
-
- Switch statement (-Exact, -Wildcard, -regex)
-
-Switch (2) { 1 {"test 1"} 2 {"test2"}}
-Switch (211) { 1 {"test 1"} 2 {"test2"} default {"erfff"}}
-switch -Wildcard ('abc') { a* {"Q"} *b* {"B"} *c {"v"} }
-Switch -Regex -File filename {"REGEX"{$_}}
-```
-
-  
-L**oop**
-
-```csharp
-PS C:\Users\b3v1l > while ($count -ge 0)
->> { "Number : $count"
->> $count--
->> }
-
-$procs = Get-Process; foreach ($proc in $procs) { $proc.Name}
-```
-
-  
-**forEach-Object**
-
-```csharp
-Get-Process |ForEach-Object {$_.Name}
-Get-Process |ForEach-Object {$_.Name, $_.Path}
-```
-
-  
-**Where-Object**
-
-```csharp
- Get-ChildItem |Where-Object {$_.name -match "txt"}
 ```
 
