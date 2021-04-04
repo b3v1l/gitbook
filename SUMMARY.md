@@ -507,6 +507,7 @@
 * [Download utils](windows/download-utils.md)
 * [Tools](windows/tools.md)
 * [Powershell](windows/powershell/README.md)
+  * [runas](windows/powershell/runas.md)
   * [Basics powershell commands](windows/powershell/basics-powershell-commands.md)
   * [Disable Cortana](windows/powershell/disable-cortana.md)
   * [Memo Commands](windows/powershell/memo-commands.md)
