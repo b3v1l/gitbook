@@ -5,6 +5,13 @@
 ```csharp
 Get-SQLInstanceDomain | Get-SQLConnectionTestThreaded -Verbose
 Get-SQLInstanceDomain | Get-SQLServerInfo -Verbose
+#local
+Get-SQLInstanceLocal 
+
+```
+
+```text
+Get-SQLInstanceLocal 
 ```
 
 #### Default login
@@ -13,22 +20,24 @@ Get-SQLInstanceDomain | Get-SQLServerInfo -Verbose
  Get-SQLServerLoginDefaultPw -Verbose -Instance <SERVER>
 ```
 
-### Dump
+## Dump
 
 ```csharp
 Invoke-SQLDumpInfo -Verbose -Instance <SERVER>
 ```
 
-### Database Link
+## Database Link
 
 ```csharp
 Get-SQLServerLink -Instance <SERVER>
 Get-SQLServerLinkCrawl -Instance <SERVER> -Verbose | ft
 ```
 
-#### Command execution
+## Command execution
 
 ```csharp
 Get-SQLServerLinkCrawl -Instance <SERVER> -Query "exec master..xp_cmdshell 'ipconfig'"
 ```
+
+
 
