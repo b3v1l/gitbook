@@ -21,3 +21,5 @@ EXEC master.dbo.sp_addlinkedsrvlogin
     @useself = N'True' ;   
 ```
 
+
+

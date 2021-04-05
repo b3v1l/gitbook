@@ -205,6 +205,7 @@
       * [LAPS](offsec/redteam-operation/ad-attacks/local-windows-credentials/laps.md)
       * [SAM/SYSTEM exfiltration](offsec/redteam-operation/ad-attacks/local-windows-credentials/sam-system-exfiltration.md)
     * [MSSQL](offsec/redteam-operation/ad-attacks/mssql/README.md)
+      * [Enable RPC and RPC out](offsec/redteam-operation/ad-attacks/mssql/enable-rpc-and-rpc-out.md)
       * [Linked DB](offsec/redteam-operation/ad-attacks/mssql/linked-db.md)
       * [PowerUpSQL](offsec/redteam-operation/ad-attacks/mssql/powerupsql.md)
       * [MSSQL attacks](offsec/redteam-operation/ad-attacks/mssql/mssql-attacks.md)
