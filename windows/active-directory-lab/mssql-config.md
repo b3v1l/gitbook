@@ -2,7 +2,7 @@
 
 
 
-```text
+```csharp
 select * from openquery("SQLDEV",'SELECT SUSER_NAME()');
 
 
@@ -35,7 +35,7 @@ SELECT name FROM sys.server_principals
 
 SELECT name FROM sys.server_principals WHERE type_desc = 'SERVER_ROLE'
 
-#grant access to DB + impersonate
+# grant access to DB + impersonate
 
 USE msdb;
 GRANT IMPERSONATE ON USER::dbo to [CROOK\Homer_potter];
