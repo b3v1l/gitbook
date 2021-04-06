@@ -514,6 +514,7 @@
 ## Windows
 
 * [Active Directory lab](windows/active-directory-lab/README.md)
+  * [MSSQL config](windows/active-directory-lab/mssql-config.md)
   * [Client password reset](windows/active-directory-lab/client-password-reset.md)
   * [Disable Cortana](windows/active-directory-lab/disable-cortana.md)
   * [GPO updates issues](windows/active-directory-lab/gpo-updates-issues.md)
