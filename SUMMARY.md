@@ -117,7 +117,6 @@
     * [Obfuscation Techniques](offsec/malware-dev/c-malware/obfuscation-techniques/README.md)
       * [Remote Process Injection w/o CreateRemoteThread](offsec/malware-dev/c-malware/obfuscation-techniques/remote-process-injection-w-o-createremotethread.md)
   * [Shellcode Format Converter](offsec/malware-dev/shellcode-converter.md)
-* [Microsoft](offsec/microsoft.md)
 * [Pivot-Tunneling](offsec/pivot-tunneling/README.md)
   * [NTLM relay](offsec/pivot-tunneling/ntlm-relay.md)
   * [Chisel](offsec/pivot-tunneling/untitled-1/README.md)
