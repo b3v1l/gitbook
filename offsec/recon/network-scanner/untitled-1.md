@@ -2,8 +2,6 @@
 
 ## Nmap Script memo
 
-{% embed url="https://github.com/nmap/nmap" %}
-
 ### Help
 
 ```csharp
@@ -58,5 +56,7 @@ nmap --script-updatedb
 --script=ms-sql-ntlm-info,ms-sql-brute,ms-sql-empty-password,ms-sql-info,ms-sql-config,ms-sql-dump-hashes
 ```
 
-\`\`
+### Resource
+
+{% embed url="https://github.com/nmap/nmap" %}
 
