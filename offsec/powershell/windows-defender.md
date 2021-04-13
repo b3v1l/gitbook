@@ -2,7 +2,9 @@
 
 ## Windows Defender
 
+{% hint style="info" %}
 Require high privilege account
+{% endhint %}
 
 ### Disable AV
 
