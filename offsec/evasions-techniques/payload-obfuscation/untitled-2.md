@@ -28,13 +28,11 @@ Saved as: tmpshell.txt
 
 * **copy the cs file on a windows system and compile it :**
 
-`C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /unsafe /platform:x64 /out:C:\Users\Public\prog.exe C:\Users\Public\mmnicesness.cs`
+```csharp
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /unsafe /platform:x64 /out:C:\Users\Public\prog.exe C:\Users\Public\mmnicesness.cs
+```
 
 ### Resources
 
 {% embed url="https://github.com/fullmetalcache/CsharpMMNiceness" %}
-
-\`\`
-
-\`\`
 
