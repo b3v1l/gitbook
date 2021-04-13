@@ -253,6 +253,7 @@
       * [LAPS](offsec/redteam-operation/local-privilege-escalation/windows/laps.md)
       * [PowerUp](offsec/redteam-operation/local-privilege-escalation/windows/powerup.md)
       * [Printer Bug](offsec/redteam-operation/local-privilege-escalation/windows/printer-bug.md)
+      * [UAC Bypass](offsec/redteam-operation/local-privilege-escalation/windows/uac-bypass.md)
       * [winPEAS](offsec/redteam-operation/local-privilege-escalation/windows/winpeas.md)
   * [Phishing techniques](offsec/redteam-operation/phishing-techniques/README.md)
     * [Azure](offsec/redteam-operation/phishing-techniques/azure/README.md)
