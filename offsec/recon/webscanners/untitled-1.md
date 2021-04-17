@@ -4,7 +4,9 @@
 
 {% embed url="https://github.com/xmendez/wfuzz" %}
 
-`wfuzz -c -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -H "User-Agent: SomethingNotObivousforWAF" --sc="500,403,301,302,204,400" "http://10.10.10.69/?FUZZ='"`
+```text
+wfuzz -c -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -H "User-Agent: SomethingNotObivousforWAF" --sc="500,403,301,302,204,400" "http://10.10.10.69/?FUZZ='"
+```
 
 Warning: Pycurl is not compiled against Openssl. Wfuzz might not work correctly when fuzzing SSL sites. Check Wfuzz's documentation for more information.
 

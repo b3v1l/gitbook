@@ -28,7 +28,7 @@ kvno MSSQLSvc/sqluat.crook.badcorp.local:1433
 ldapsearch -Y GSSAPI -H ldap://dc02.crook.badcorp.local -D "Administrator@CROOK.BADCORP.LOCAL" -W -b "dc=crook,dc=badcorp,dc=local" "servicePrincipalName=*" servicePrincipalName
 ```
 
-```text
+```csharp
 kvno MSSQLSvc/sqluat.crook.badcorp.local:1433
 ```
 

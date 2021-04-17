@@ -477,6 +477,7 @@
 ## Networking
 
 * [IPV6](networking/ipv6/README.md)
+  * [IPv6 commands](networking/ipv6/ipv6-commands.md)
   * [Get IPV6 Address from MAC](networking/ipv6/untitled.md)
   * [Nmap IPV6](networking/ipv6/untitled-3.md)
   * [Web IPV6](networking/ipv6/web-ipv6.md)
