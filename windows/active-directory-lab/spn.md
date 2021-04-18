@@ -8,7 +8,7 @@ setspn.exe -A  "MSSQLSvc/sqlprod.crook.badcorp.local:1433" "CROOK\sqladmin"
 
 ## Deletion
 
-```text
+```csharp
 setspn.exe -D  "MSSQLSvc/sqlprod.crook.badcorp.local:1433" "CROOK\sqladmin"
 ```
 
