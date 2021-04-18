@@ -516,11 +516,12 @@
 ## Windows
 
 * [Active Directory lab](windows/active-directory-lab/README.md)
-  * [MSSQL config](windows/active-directory-lab/mssql-config.md)
+  * [SPN](windows/active-directory-lab/spn.md)
   * [Client password reset](windows/active-directory-lab/client-password-reset.md)
   * [Disable Cortana](windows/active-directory-lab/disable-cortana.md)
   * [GPO updates issues](windows/active-directory-lab/gpo-updates-issues.md)
   * [Linux AD integration](windows/active-directory-lab/active-directory-domain.md)
+  * [MSSQL config](windows/active-directory-lab/mssql-config.md)
   * [Populate Active Directory](windows/active-directory-lab/populate-active-directory.md)
   * [User autologin](windows/active-directory-lab/user-autologin.md)
   * [User emulation](windows/active-directory-lab/user-emulation.md)
