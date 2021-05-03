@@ -23,6 +23,10 @@ FILTER OPTIONS:
 ### Searching for specific file extension
 
 ```csharp
+ffuf -w wordlist -u http://site.com/FUZZ -e .php,.zip,.txt
+```
+
+```csharp
 ffuf -w /opt/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP:PORT/blog/FUZZ.php
 ```
 
@@ -46,10 +50,34 @@ ffuf -w /opt/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u
 ffuf -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.SITE.COM/
 ```
 
+### POST requests
+
+```csharp
+ffuf -w wordlist -u http://site.com/FUZZ -X POST -d "search=FUZZ"
+```
+
+### Threading
+
+```csharp
+ffuf -w wordlist -u http://site.com/FUZZ -t 20
+```
+
+### Limited request \(by seconds\)
+
+```csharp
+ffuf -w wordlist -u http://site.com/FUZZ -p 2
+```
+
 ### Vhost fuzzing
 
 ```csharp
 ffuf -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://site.com:PORT/ -H 'Host: FUZZ.site.com'
+```
+
+### Cookie Authentication
+
+```csharp
+ffuf -w wordlist -u http://site.com/FUZZ -b "PHPSESSION=xxxxxxx"
 ```
 
 ### Api fuzzing \(and response match, 200-500\)
