@@ -279,6 +279,7 @@
   * [Crackmapexec and Empire](offsec/tools/untitled-5.md)
   * [Metasploit](offsec/tools/untitled-3/README.md)
     * [msfconsole](offsec/tools/untitled-3/msfconsole/README.md)
+      * [issue](offsec/tools/untitled-3/msfconsole/issue.md)
       * [Stage Encoder](offsec/tools/untitled-3/msfconsole/stage-encoder.md)
       * [Domain Fronting](offsec/tools/untitled-3/msfconsole/domain-fronting.md)
       * [Impersonate token](offsec/tools/untitled-3/msfconsole/impersonate-token.md)
