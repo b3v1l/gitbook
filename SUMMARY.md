@@ -128,6 +128,7 @@
   * [SSH tunneling](offsec/pivot-tunneling/ssh.md)
   * [Socat Linux/Windows](offsec/pivot-tunneling/socat-linux-windows.md)
 * [Powershell](offsec/powershell/README.md)
+  * [base64 encoding](offsec/powershell/base64-encoding.md)
   * [Assembly Reflection](offsec/powershell/assembly-reflection.md)
   * [Basics powershell commands](offsec/powershell/basics-powershell-commands.md)
   * [Disable Cortana](offsec/powershell/disable-cortana.md)
