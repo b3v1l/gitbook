@@ -439,7 +439,6 @@
   * [RedHat](linux/distro/redhat.md)
 * [i3-plasma](linux/i3-plasma.md)
 * [Linux commands](linux/bash/README.md)
-  * [Python](linux/bash/python.md)
   * [ansible](linux/bash/ansible.md)
   * [awk](linux/bash/bash.md)
   * [Common](linux/bash/untitled-12.md)
@@ -459,7 +458,7 @@
   * [Module signature](linux/bash/module-signature.md)
   * [Mount](linux/bash/mount.md)
   * [Netcat / Ncat](linux/bash/netcat-ncat.md)
-  * [sed](linux/bash/sed.md)
+  * [Python](linux/bash/python.md)
   * [Php Basics](linux/bash/php-basics.md)
   * [Retrieve Serial from BIOS](linux/bash/untitled-1.md)
   * [Regex](linux/bash/regex.md)
@@ -467,6 +466,7 @@
   * [rsync](linux/bash/rsync.md)
   * [Samba](linux/bash/samba.md)
   * [screen](linux/bash/screen.md)
+  * [sed](linux/bash/sed.md)
   * [smtp](linux/bash/smtp/README.md)
     * [SendEmail](linux/bash/smtp/sendemail.md)
     * [swaks](linux/bash/smtp/swaks.md)
@@ -476,6 +476,7 @@
   * [Tmux](linux/bash/tmux.md)
   * [vim tricks](linux/bash/vim-tricks.md)
   * [xxd](linux/bash/xxd.md)
+  * [webcam](linux/bash/webcam.md)
 
 ## Networking
 
