@@ -17,7 +17,9 @@ Import-Module .\LAPSToolkit.ps1
 ### Locate computers
 
 ```csharp
+. .\LAPSToolkit.ps1
 Get-LAPSComputers
+Find-LAPSDelegatedGroups
 ```
 
 ![](../../../../.gitbook/assets/image%20%28148%29.png)

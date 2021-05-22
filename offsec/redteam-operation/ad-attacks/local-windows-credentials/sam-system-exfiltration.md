@@ -63,7 +63,7 @@ pwdump SYSTEM SAM
 ### Mimikatz
 
 ```text
-lsadump::sam /system:C:\Users\b3v1l\Documents\test\sam\system /sam:C:\Users\b3v1l\Documents\test\sam\sam
+lsadump::sam /system:C:\test\sam\system /sam:C:\test\sam\sam
 ```
 
 ![](../../../../.gitbook/assets/image%20%28309%29.png)

