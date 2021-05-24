@@ -37,13 +37,13 @@ rsync -zarvh root@x.x.x.x:/opt/source /tmp
 
 ### **Specify remote shell during synchronization**
 
-```text
+```csharp
 rsync -zarvh -e ssh  root@x.x.x.x:/opt/source /tmp
 ```
 
 ### **Copy the directory structure without copying files**
 
-```text
+```csharp
 rsync -av -f"+ */" -f"- *" /home/user root@x.x.x.x:/opt/
 ```
 
@@ -51,7 +51,7 @@ rsync -av -f"+ */" -f"- *" /home/user root@x.x.x.x:/opt/
 
 * files/folders
 
-```text
+```csharp
 rsync --exclude="folder" --exclude="something else" source/ destination/
 ```
 
