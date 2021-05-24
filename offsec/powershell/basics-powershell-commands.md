@@ -179,6 +179,12 @@ PS C:\Windows\system32\WindowsPowerShell\v1.0>
 PS C:\Windows\system32\WindowsPowerShell\v1.0>
 ```
 
+### Display firewall rules
+
+```csharp
+$f=New-object -comObject HNetCfg.FwPolicy2;$f.rules | where {$_.action -eq "0"} | select name,applicationname,localports
+```
+
 ### Hidden Streams
 
 ```csharp
