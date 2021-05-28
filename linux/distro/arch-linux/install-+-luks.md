@@ -38,10 +38,6 @@ cryptsetup open /dev/sda3 luks_root
   mkfs.vfat -n "EFI System Partition" /dev/sda1
   ```
 * ```text
-  # BOOT
-  mkfs.ext4 -L boot /dev/sda2
-  ```
-* ```text
   # Root
   mkfs.ext4 -L root /dev/mapper/luks_root
   ```
@@ -82,7 +78,7 @@ pacstrap -i /mnt base base-devel efibootmgr grub linux linux-firmware
 #### generate **fstab**
 
 ```csharp
-genfstab -U /mnt > /mnt/etc/fstab
+genfstab -U /mnt >> /mnt/etc/fstab
 ```
 
 #### chroot
