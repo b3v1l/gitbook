@@ -2,25 +2,44 @@
 
 ## **Replace selection everywhere**
 
-`:%s/polo/perin/g`
+```text
+:%s/polo/perin/g
+```
 
 ## **Dans le cas d'un espace :**
 
-`%s/name.d/bind\/name.d/g`
-
-`%s#thisworks#too#g`
+```csharp
+%s/name.d/bind\/name.d/g
+%s#thisworks#too#g
+```
 
 ## **Commanter plusieurs ligne \(par ex\)**
 
-`:line_number_start,line_number_ends/^/#/g`
+```csharp
+:line_number_start,line_number_ends/^/#/g
+:13,39s/^/#/g
+```
 
-## **Afficher le nombre de lignes ::**
+## **Display line numbers**
 
-`:set nu`
+```csharp
+:set nu
+
+disable
+:set nonumber
+```
 
 ## **Run a command**
 
-`%! ls`
+```csharp
+%! ls
+```
+
+### Go to char X in the current line
+
+```csharp
+1000 | 
+```
 
 ## **Select chars and delete \(ex 1st char\) :**
 

@@ -14,5 +14,9 @@ add the following line in the machine config \(overview XML\)
 
 ![](../../../.gitbook/assets/a25951d836174f02b48cb61875854902.png)
 
+```text
+ <loader readonly="yes" type="pflash">/usr/share/ovmf/x64/OVMF_CODE.fd</loader>
+```
 
+>
 
