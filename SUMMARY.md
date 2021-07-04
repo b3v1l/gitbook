@@ -426,11 +426,11 @@
 
 * [Distro](linux/distro/README.md)
   * [Arch Linux](linux/distro/arch-linux/README.md)
-    * [Install pgp key](linux/distro/arch-linux/install-pgp-key.md)
     * [Chroot - Usb Boot](linux/distro/arch-linux/chroot-usb-boot.md)
     * [Install + Luks](linux/distro/arch-linux/install-+-luks.md)
     * [java](linux/distro/arch-linux/java-version.md)
-    * [pacman](linux/distro/arch-linux/untitled.md)
+    * [pacman](linux/distro/arch-linux/untitled/README.md)
+      * [Install pgp key](linux/distro/arch-linux/untitled/install-pgp-key.md)
     * [ssd](linux/distro/arch-linux/ssd.md)
     * [System Maintenance](linux/distro/arch-linux/system-maintenance.md)
     * [System time](linux/distro/arch-linux/system-time.md)
