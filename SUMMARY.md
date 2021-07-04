@@ -426,6 +426,7 @@
 
 * [Distro](linux/distro/README.md)
   * [Arch Linux](linux/distro/arch-linux/README.md)
+    * [Install pgp key](linux/distro/arch-linux/install-pgp-key.md)
     * [Chroot - Usb Boot](linux/distro/arch-linux/chroot-usb-boot.md)
     * [Install + Luks](linux/distro/arch-linux/install-+-luks.md)
     * [java](linux/distro/arch-linux/java-version.md)
