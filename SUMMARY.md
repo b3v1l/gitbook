@@ -9,6 +9,7 @@
     * [01-Recon](offsec/cloud-pentesting/cloud-pentesting/01-recon.md)
     * [02-Common misconfigurations](offsec/cloud-pentesting/cloud-pentesting/02-common-misconfigurations/README.md)
       * [Public resources](offsec/cloud-pentesting/cloud-pentesting/02-common-misconfigurations/public-resources/README.md)
+        * [Azure Connection String](offsec/cloud-pentesting/cloud-pentesting/02-common-misconfigurations/public-resources/azure-connection-string.md)
         * [Public AWS S3](offsec/cloud-pentesting/cloud-pentesting/02-common-misconfigurations/public-resources/public-aws-s3.md)
         * [Public Azure Blob](offsec/cloud-pentesting/cloud-pentesting/02-common-misconfigurations/public-resources/public-azure-blob.md)
         * [Public Google Storage](offsec/cloud-pentesting/cloud-pentesting/02-common-misconfigurations/public-resources/public-google-storage.md)
