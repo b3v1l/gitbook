@@ -57,6 +57,12 @@ ps -ef | awk '{ if($NF == "/bin/sh") print $0}'
 awk '{print substr($0, 4)}' myfile.txt
 ```
 
+### Print line 7 to 11
+
+```csharp
+df | awk 'NR==7, NR==11 {print NR, $0}'
+```
+
 #### random example
 
 ```csharp
