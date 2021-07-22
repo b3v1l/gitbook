@@ -441,6 +441,7 @@
   * [RedHat](linux/distro/redhat.md)
 * [i3-plasma](linux/i3-plasma.md)
 * [Linux commands](linux/bash/README.md)
+  * [xargs](linux/bash/xargs.md)
   * [ansible](linux/bash/ansible.md)
   * [awk](linux/bash/bash.md)
   * [Common](linux/bash/untitled-12.md)
