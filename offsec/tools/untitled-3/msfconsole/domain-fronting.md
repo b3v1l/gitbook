@@ -4,13 +4,13 @@
 
 ### Add a letsencrypt cert 
 
-```text
+```csharp
 cat privkey2.pem fullchain2.pem > msf.pem 
 ```
 
 ### Multi-handler config
 
-```text
+```csharp
 msf5 exploit(multi/handler) > set LHOST good.domain.com
 msf5 exploit(multi/handler) > set OverrideLHOST good.domain.com
 msf5 exploit(multi/handler) > set OverrideRequestHost true
