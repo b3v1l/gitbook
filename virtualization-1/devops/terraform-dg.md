@@ -1,4 +1,4 @@
-# terraform \(DG\)
+# Terraform \(DG\)
 
 ## Dropplet
 
@@ -80,6 +80,7 @@ resource "digitalocean_droplet" "devops_vm_1" {
       "sudo echo 'ansible ALL=(ALL) NOPASSWD:ALL' | sudo tee -a /etc/sudoers"
     ]
   }
+}
 resource "digitalocean_firewall" "firewall" {
   name = "devopsFW"
 
@@ -115,7 +116,7 @@ resource "digitalocean_firewall" "firewall" {
     destination_addresses = ["0.0.0.0/0"]
   }
 } 
-}
+
 
 ```
 

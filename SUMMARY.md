@@ -503,7 +503,9 @@
 
 ## Virtualization <a id="virtualization-1"></a>
 
-* [terraform \(DG\)](virtualization-1/terraform-dg.md)
+* [Devops](virtualization-1/devops/README.md)
+  * [Ansible](virtualization-1/devops/ansible.md)
+  * [Terraform \(DG\)](virtualization-1/devops/terraform-dg.md)
 * [Docker](virtualization-1/docker.md)
 * [QEMU/KVM](virtualization-1/qemu-kvm/README.md)
   * [Administration](virtualization-1/qemu-kvm/administration.md)
