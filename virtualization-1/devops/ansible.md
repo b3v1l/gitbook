@@ -9,11 +9,11 @@ ansible-galaxy collection install community.general
 ansible-galaxy collection install ansible.posix
 ```
 
-### Folders settings
+## Folders and files configuration
 
 ![](../../.gitbook/assets/image%20%28262%29.png)
 
-#### Deploy.yml
+### Deploy.yml
 
 ```csharp
 ---
@@ -31,7 +31,7 @@ ansible-galaxy collection install ansible.posix
 
 ```
 
-#### ansible.cfg
+### ansible.cfg
 
 ```csharp
 # config file for ansible -- http://ansible.com/
@@ -55,4 +55,53 @@ library        = ./library
 # additional paths to search for roles in, colon separated
 roles_path    = ~/.ansible/roles:roles
 ```
+
+### inventory.yml
+
+```csharp
+digitalocean:
+  hosts:
+    my-vm-1:
+      ansible_host: "IP_HERE"
+      hostname: "HOSTNAME_HERE"
+
+      ansible_python_interpreter: /usr/bin/python3
+      ansible_ssh_private_key_file: "/home/user/sshprivate"
+      ansible_ssh_public_key_file: "/home/user/ssh.pub"
+      ansible_ssh_user: 'ansible'
+
+      # Create Users
+      users:
+        - username: polo
+          name: polo Lo
+          authorized_keys:
+            - "{{ lookup('file', '/home/user/ssh.pub') }}"
+            #- "https://github.com/mykey.keys"
+          home_create: yes
+          append: yes
+          home_mode: "0750"
+          shell: '/usr/bin/zsh'
+      
+      users_authorized_keys_exclusive: yes
+      security_sudoers_passwordless:
+        - polo
+
+      # ZSH Settings
+      zsh_shared: yes
+      
+      # Docker Settings
+      dockernet: "docker"
+      docker_home_dir: '/opt/docker'
+
+      # Pip Settings
+      pip_install_packages:
+        - name: docker
+      pip_executable: pip3
+      pip_package: python3-pip
+
+      # NTP
+      ntp_timezone: 'Europe/Paris'
+```
+
+
 
