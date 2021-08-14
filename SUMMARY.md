@@ -92,6 +92,7 @@
     * [Ebowla](offsec/evasions-techniques/payload-obfuscation/untitled-1.md)
     * [unicorn](offsec/evasions-techniques/payload-obfuscation/untitled.md)
 * [Exploit Dev](offsec/exploit-dev/README.md)
+  * [Memo](offsec/exploit-dev/memo.md)
   * [Windbg](offsec/exploit-dev/windbg.md)
 * [Malware DEV](offsec/malware-dev/README.md)
   * [AMSI](offsec/malware-dev/amsi/README.md)
