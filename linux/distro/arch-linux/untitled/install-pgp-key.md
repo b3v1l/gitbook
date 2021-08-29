@@ -1,5 +1,12 @@
 # Install pgp key
 
+## Update key
+
+```csharp
+pacman -Sy archlinux-keyring
+pacman -Syu
+```
+
 ## Manual install
 
 ### Add the key
@@ -19,4 +26,6 @@ pacman-key --finger <VALUE_HERE>
 ```csharp
 pacman-key --lsign-key <VALUE_HERE>
 ```
+
+
 

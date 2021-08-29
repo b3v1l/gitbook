@@ -1,5 +1,7 @@
 # Chroot - Usb Boot
 
+![](../../../.gitbook/assets/image%20%28264%29.png)
+
 ## Usb boot - remount partitions
 
 * Boot with install device
@@ -19,4 +21,6 @@
 
 * make change and then exit
 * Umount everything and reboot
+
+
 
