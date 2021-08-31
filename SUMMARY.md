@@ -443,6 +443,7 @@
   * [Linux Hardening](linux/distro/linux-hardening.md)
   * [RedHat](linux/distro/redhat.md)
 * [i3-plasma](linux/i3-plasma/README.md)
+  * [Configuration](linux/i3-plasma/configuration.md)
   * [Issues](linux/i3-plasma/issues.md)
 * [Linux commands](linux/bash/README.md)
   * [xargs](linux/bash/xargs.md)
