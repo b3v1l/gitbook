@@ -515,7 +515,7 @@
 * [QEMU/KVM](virtualization-1/qemu-kvm/README.md)
   * [Administration](virtualization-1/qemu-kvm/administration.md)
   * [Guest Machine](virtualization-1/qemu-kvm/guest-machine/README.md)
-    * [Repair](virtualization-1/qemu-kvm/guest-machine/repair.md)
+    * [Common issues](virtualization-1/qemu-kvm/guest-machine/repair.md)
     * [Extend Disk](virtualization-1/qemu-kvm/guest-machine/extend-disk.md)
     * [No boot device error using windows 10](virtualization-1/qemu-kvm/guest-machine/untitled-7.md)
     * [Spice Display](virtualization-1/qemu-kvm/guest-machine/spice-display.md)
