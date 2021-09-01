@@ -508,6 +508,7 @@
 
 ## Virtualization <a id="virtualization-1"></a>
 
+* [kubernetes](virtualization-1/kubernetes.md)
 * [Devops](virtualization-1/devops/README.md)
   * [Ansible](virtualization-1/devops/ansible.md)
   * [Terraform \(DG\)](virtualization-1/devops/terraform-dg.md)
