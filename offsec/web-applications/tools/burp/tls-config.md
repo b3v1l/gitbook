@@ -1,0 +1,87 @@
+# TLS config
+
+```csharp
+{
+    "proxy":{
+		"request_listeners":[
+            {
+                "certificate_mode":"per_host",
+                "custom_tls_protocols":[],
+                "enable_http2":true,
+                "listen_mode":"loopback_only",
+                "listener_port":8080,
+                "running":true,
+                "use_custom_tls_protocols":false
+            },
+            {
+                "certificate_mode":"per_host",
+                "custom_tls_protocols":[
+                    "TLSv1",
+                    "TLSv1.1",
+                    "TLSv1.2",
+                    "TLSv1.3"
+                ],
+                "enable_http2":true,
+                "listen_mode":"loopback_only",
+                "listener_port":8081,
+                "running":true,
+                "use_custom_tls_protocols":false
+            }
+        ],
+        "ssl_pass_through":{
+            "automatically_add_entries_on_client_ssl_negotiation_failure":false,
+            "rules":[
+                {
+                    "enabled":true,
+                    "host":"^*\\.mozilla\\.(com|net|org)$",
+                    "protocol":"any"
+                },
+                {
+                    "enabled":true,
+                    "host":"^*\\.google\\.(com|be)$",
+                    "protocol":"any"
+                },
+                {
+                    "enabled":true,
+                    "host":"^*\\.google-analytics\\.(com|be)$",
+                    "protocol":"any"
+                },
+                {
+                    "enabled":true,
+                    "host":"^*\\.googleapis\\.(com|be)$",
+                    "protocol":"any"
+                },
+                {
+                    "enabled":true,
+                    "host":"^*\\.facebook.com$",
+                    "protocol":"any"
+                },
+                {
+                    "enabled":true,
+                    "host":"^detectportal\\.*",
+                    "protocol":"any"
+                },
+                {
+                    "enabled":true,
+                    "host":"^jaws\\.*",
+                    "protocol":"any"
+                },
+                {
+                    "enabled":true,
+                    "host":"^*\\.firefox\\.(com|net|org)$",
+                    "protocol":"any"
+                },
+                {
+                    "enabled":true,
+                    "file":"^/canonical\\.html.*",
+                    "host":"^detectportal\\.firefox\\.com$",
+                    "port":"^80$",
+                    "protocol":"http"
+                }
+            ]
+        }
+    }
+}
+
+```
+
