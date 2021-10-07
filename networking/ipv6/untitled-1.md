@@ -23,6 +23,8 @@ GRUB_CMDLINE_LINUX="ipv6.disable=1"
 
 ```text
 update-grub
+#or
+grub-mkconfig -o /boot/grub/grub.cfg 
 ```
 
 ### Disable for the session
