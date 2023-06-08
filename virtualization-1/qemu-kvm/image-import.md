@@ -15,5 +15,3 @@ tar xvf Image.ova
 qemu-img convert -f vmdk -O qcow2 Windows\ 10\ x64-cl1.vmdk CommandoVM.qcow2
 ```
 
-\`\`
-

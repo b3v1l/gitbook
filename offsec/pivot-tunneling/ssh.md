@@ -1,12 +1,12 @@
 # SSH tunneling
 
-## SSH tunneling <a id="ssh-tunneling"></a>
+## SSH tunneling <a href="#ssh-tunneling" id="ssh-tunneling"></a>
 
 ```csharp
 ssh -l user -p port -N(dont execute remote cmd) -L:8000:127.0.0.1:64297 10.4.4.63(remote_ip)
 ```
 
-### SSH reverse tunnel \(ie for irc\)
+### SSH reverse tunnel (ie for irc)
 
 ```csharp
 ssh -L localhost_PORT:irc.freenode.net:6667 user@owned_server
@@ -37,6 +37,4 @@ http://proxychains.sf.net
 )
 |S-chain|-<>-127.0.0.1:1028-<><>-10.1.1.1:22-<><>-OK
 ```
-
-\`\`
 

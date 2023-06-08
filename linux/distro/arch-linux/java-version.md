@@ -50,9 +50,7 @@ PATH is /usr/lib/jvm/java-14-openjdk/bin/jar ....
 
 ### Resources
 
-{% embed url="https://wiki.archlinux.org/index.php/Java\_Runtime\_Environment\_fonts" %}
-
-
+{% embed url="https://wiki.archlinux.org/index.php/Java_Runtime_Environment_fonts" %}
 
 
 

@@ -28,7 +28,7 @@ unshadow passwd shadow > password.txt
 john --wordlist=rockyou.txt password
 ```
 
-## Tricks <a id="tricks"></a>
+## Tricks <a href="#tricks" id="tricks"></a>
 
 * **Modify John configuration to add number to a given password file:**
 
@@ -43,6 +43,4 @@ john --wordlist=rockyou.txt password
 ```csharp
 john --wordlist=pass.txt --rules --stdout > number.txt
 ```
-
-\`\`
 

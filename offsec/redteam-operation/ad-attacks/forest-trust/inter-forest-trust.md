@@ -24,19 +24,19 @@ Get-DomainTrustMapping
 
 search for inter forest accounts :
 
-```text
+```
 Get-DomainForeignGroupMember -Domain target.com
 ```
 
 Then, convert the SID members names
 
-```text
+```
 ConvertFrom-SID <MemberName SID>
 ```
 
 ## Other Forests compromise
 
-by default it is not possible to compromise a trusted forest \(forest trust are set as security boundary\)
+by default it is not possible to compromise a trusted forest (forest trust are set as security boundary)
 
 ### SID filtering
 
@@ -46,13 +46,11 @@ by default it is not possible to compromise a trusted forest \(forest trust are 
 netdom trust crook.badcorp.local /d:badcorp.local /enablesidhistory:yes
 ```
 
-![](../../../../.gitbook/assets/image%20%28305%29%20%281%29.png)
+![](<../../../../.gitbook/assets/image (305) (1).png>)
 
 {% hint style="warning" %}
-Microsoft dictated that any SID with a RID less than 1000 will always be filtered regardless of the SID history setting -&gt; **RID &gt; 1000 are fine.**
+Microsoft dictated that any SID with a RID less than 1000 will always be filtered regardless of the SID history setting -> **RID > 1000 are fine.**
 
-**From there, creating a golden ticket can be used with sid history \(with a sids &gt; 1000\).**
+**From there, creating a golden ticket can be used with sid history (with a sids > 1000).**
 {% endhint %}
-
-\*\*\*\*
 

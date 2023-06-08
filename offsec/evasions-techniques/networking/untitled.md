@@ -10,7 +10,7 @@ Domain fronting is a collection of techniques to make use of other people’s do
 
 A trivial form of domain fronting is to stand up a node in Amazon’s EC2 and configure it as a redirector for your controller. The FQDN of your EC2 instance is an amazonaws.com subdomain.
 
-AWSSTATIC &gt; high reputation -&gt; point to cloudfront.net which serve our malicious webserver content on polo.malicious.com
+AWSSTATIC > high reputation -> point to cloudfront.net which serve our malicious webserver content on polo.malicious.com
 
 * Example
 
@@ -20,9 +20,7 @@ AWSSTATIC &gt; high reputation -&gt; point to cloudfront.net which serve our mal
 
 {% embed url="https://blog.cobaltstrike.com/2017/02/06/high-reputation-redirectors-and-domain-fronting/" %}
 
-\`\`
 
-\`\`
 
-\`\`
+
 

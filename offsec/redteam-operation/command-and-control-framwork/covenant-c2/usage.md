@@ -4,11 +4,11 @@
 
 ### Assembly
 
-![](../../../../.gitbook/assets/image%20%28240%29.png)
+![](<../../../../.gitbook/assets/image (240).png>)
 
 ### Commands execution
 
-```text
+```
 ShellCmd cmd /c net user
 ```
 
@@ -18,17 +18,17 @@ ShellCmd cmd /c net user
 
 * **Upload a file**
 
-```text
+```
  Upload /filepath:"C:\Users\HOMER_POTTER\test.exe" 
 ```
 
-![](../../../../.gitbook/assets/image%20%28208%29%20%281%29.png)
+![](<../../../../.gitbook/assets/image (208) (1).png>)
 
 * **Download**
 
-![](../../../../.gitbook/assets/image%20%28266%29.png)
+![](<../../../../.gitbook/assets/image (266).png>)
 
-\*\*\*\*
+
 
 ### Enumeration
 
@@ -36,49 +36,47 @@ ShellCmd cmd /c net user
 Seatbelt -group=all
 ```
 
-![](../../../../.gitbook/assets/image%20%28303%29.png)
+![](<../../../../.gitbook/assets/image (303).png>)
 
 ### Keylogger
 
 #### Set time to run, ie `keylogger 20` to make it run for 20 seconds
 
-![](../../../../.gitbook/assets/image%20%28111%29.png)
+![](<../../../../.gitbook/assets/image (111).png>)
 
 ### Mimikatz
 
 `LogonPasswords`
 
-![](../../../../.gitbook/assets/image%20%28222%29.png)
+![](<../../../../.gitbook/assets/image (222).png>)
 
-### Powershell 
+### Powershell&#x20;
 
 * **import remote modules**
 
-```text
+```
 PowerShellImport
 ```
 
-![](../../../../.gitbook/assets/image%20%28193%29.png)
+![](<../../../../.gitbook/assets/image (193).png>)
 
 * Execute commands from the imported module:
 
-```text
+```
 powershell Get-domainUsers
 ```
 
-![](../../../../.gitbook/assets/image%20%2864%29.png)
+![](<../../../../.gitbook/assets/image (64).png>)
 
-### Sharshell commands 
+### Sharshell commands&#x20;
 
 ### ! case sensitive
 
 #### Using Tokens
 
-```text
+```
 sharpshell using (Tokens t = new Tokens()) {return t.WhoAmI(); }
 ```
 
-![](../../../../.gitbook/assets/image%20%28250%29.png)
-
-
+![](<../../../../.gitbook/assets/image (250).png>)
 

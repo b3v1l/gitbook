@@ -1,8 +1,8 @@
 # git
 
-## git 
+## git&#x20;
 
-### Own git repo 
+### Own git repo&#x20;
 
 ```csharp
 echo "# python" >> README.md
@@ -13,7 +13,7 @@ git remote add origin https://github.com/USER/python.git
 git push -u origin master
 ```
 
-### Authentication Methods <a id="change-https-authentication-for-ssh-auth"></a>
+### Authentication Methods <a href="#change-https-authentication-for-ssh-auth" id="change-https-authentication-for-ssh-auth"></a>
 
 ```csharp
 git remote add origin https://github.com/USER/python.git
@@ -28,17 +28,17 @@ git pull
 
 #### Make change on files then :
 
-```text
+```
 git commit -a -m "My changes"
 ```
 
-#### then, apply 
+#### then, apply&#x20;
 
-```text
+```
 git push
 ```
 
-### Add files <a id="add-files"></a>
+### Add files <a href="#add-files" id="add-files"></a>
 
 ```csharp
 git add path/to/files or git add . (from where you are)
@@ -57,7 +57,7 @@ note :
 * git add = for new files
 * git commit -a = for modifications made in existing files
 
-### Change Branch 
+### Change Branch&#x20;
 
 #### checkout the branch
 
@@ -71,14 +71,14 @@ git branch
 git checkout MY_BRANCH
 ```
 
-### Restore previous change <a id="corriger-et-revenir-&#xE0;-un-ancien-commit"></a>
+### Restore previous change <a href="#corriger-et-revenir-a-un-ancien-commit" id="corriger-et-revenir-a-un-ancien-commit"></a>
 
 ```csharp
 git checkout commit_number nom_du_module
 git reverse #du commit    (voir internet)
 ```
 
-### Start a project 
+### Start a project&#x20;
 
 ```csharp
 git init
@@ -88,7 +88,7 @@ git diff file_name
 git commit -m "My text"
 ```
 
-### List commits 
+### List commits&#x20;
 
 ```csharp
 git log
@@ -104,11 +104,9 @@ git push -f origin master
 
 ### ssh key
 
-```text
+```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_priv_key
 ```
-
-\`\`
 

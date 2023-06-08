@@ -22,7 +22,7 @@
 
 * Code execution:
 
-                     \* Fails
+&#x20;                    \* Fails
 
 ![](../../../.gitbook/assets/7de5f80878b84bb59fa10cac05e9cc7d.png)
 
@@ -39,4 +39,3 @@
 * Bypass '/' blacklist using ding the command, ie `cat /etc/passwd`
 
 ![](../../../.gitbook/assets/d7582932bf0f4b05bf8d83b7fb1d3325.png)
-

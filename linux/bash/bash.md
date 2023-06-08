@@ -69,5 +69,3 @@ df | awk 'NR==7, NR==11 {print NR, $0}'
 awk '{print $8}' file | cut -d '=' -f2 | sort | tail | ORACLE\Administrator (RID: 500) cat enum_users.txt |awk '/RID/ {print $2} '  
 ```
 
-\`\`
-
