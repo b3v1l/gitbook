@@ -82,6 +82,7 @@
         * [SSRF exploitation](offsec/cloud-pentesting/cloud-pentesting/08-infrastructure-attacks/web-applications/untitled.md)
   * [Azure AD](offsec/cloud-pentesting/azure-ad/README.md)
     * [Recon](offsec/cloud-pentesting/azure-ad/recon.md)
+    * [Initial Access](offsec/cloud-pentesting/azure-ad/initial-access.md)
 * [Evasion Techniques](offsec/evasions-techniques/README.md)
   * [AMSI bypass](offsec/evasions-techniques/amsi-bypass/README.md)
     * [Bypass](offsec/evasions-techniques/amsi-bypass/bypass.md)
