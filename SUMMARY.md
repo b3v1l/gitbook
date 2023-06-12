@@ -84,7 +84,7 @@
     * [Recon](offsec/cloud-pentesting/azure-ad/recon.md)
     * [Initial Access](offsec/cloud-pentesting/azure-ad/initial-access/README.md)
       * [Recon as an authenticated user](offsec/cloud-pentesting/azure-ad/initial-access/recon-as-an-authenticated-user/README.md)
-        * [Azure AD modules](offsec/cloud-pentesting/azure-ad/initial-access/recon-as-an-authenticated-user/azure-ad-modules.md)
+        * [Azure AD module](offsec/cloud-pentesting/azure-ad/initial-access/recon-as-an-authenticated-user/azure-ad-module.md)
 * [Evasion Techniques](offsec/evasions-techniques/README.md)
   * [AMSI bypass](offsec/evasions-techniques/amsi-bypass/README.md)
     * [Bypass](offsec/evasions-techniques/amsi-bypass/bypass.md)
