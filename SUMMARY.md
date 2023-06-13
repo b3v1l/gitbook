@@ -83,6 +83,7 @@
   * [Azure AD](offsec/cloud-pentesting/azure-ad/README.md)
     * [Recon](offsec/cloud-pentesting/azure-ad/recon/README.md)
       * [Recon as an authenticated user](offsec/cloud-pentesting/azure-ad/recon/recon-as-an-authenticated-user/README.md)
+        * [Azure CLI](offsec/cloud-pentesting/azure-ad/recon/recon-as-an-authenticated-user/azure-cli.md)
         * [Az Module](offsec/cloud-pentesting/azure-ad/recon/recon-as-an-authenticated-user/az-module.md)
         * [Azure AD module](offsec/cloud-pentesting/azure-ad/recon/recon-as-an-authenticated-user/azure-ad-module.md)
     * [Initial Access](offsec/cloud-pentesting/azure-ad/initial-access.md)
