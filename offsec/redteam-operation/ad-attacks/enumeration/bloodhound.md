@@ -25,7 +25,7 @@ http://localhost:7474/browser/
 
 ### Start Bloodhound
 
-![](../../../../.gitbook/assets/image%20%2811%29.png)
+![](<../../../../.gitbook/assets/image (11) (1).png>)
 
 ## Collectors
 
@@ -41,7 +41,7 @@ git clone https://github.com/BloodHoundAD/SharpHound3
 Install-Package Fody
 ```
 
-![](../../../../.gitbook/assets/image%20%2823%29.png)
+![](<../../../../.gitbook/assets/image (23).png>)
 
 ### SharpHound
 
@@ -54,6 +54,4 @@ sharphound.exe -C all -d <domain local> --domaincontroller 1.2.3.4
 ```csharp
 .\sharphound.exe -C Container, Group, LocalGroup, GPOLocalGroup, Session, LoggedOn,ObjectProps, ACL, ComputerOnly, Trusts, Default, RDP, DCOM, DCOnly
 ```
-
-
 

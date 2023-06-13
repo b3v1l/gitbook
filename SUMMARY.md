@@ -81,6 +81,7 @@
         * [Discovery - enumeration](offsec/cloud-pentesting/cloud-pentesting/08-infrastructure-attacks/web-applications/discovery-enumeration.md)
         * [SSRF exploitation](offsec/cloud-pentesting/cloud-pentesting/08-infrastructure-attacks/web-applications/untitled.md)
   * [Azure AD](offsec/cloud-pentesting/azure-ad/README.md)
+    * [Azure Authentication](offsec/cloud-pentesting/azure-ad/azure-authentication.md)
     * [Recon](offsec/cloud-pentesting/azure-ad/recon/README.md)
       * [Recon as an authenticated user](offsec/cloud-pentesting/azure-ad/recon/recon-as-an-authenticated-user/README.md)
         * [Azure CLI (DOS and powershell)](offsec/cloud-pentesting/azure-ad/recon/recon-as-an-authenticated-user/azure-cli-dos-and-powershell.md)
