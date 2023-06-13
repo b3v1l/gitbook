@@ -25,7 +25,7 @@ http://localhost:7474/browser/
 
 ### Start Bloodhound
 
-![](<../../../../.gitbook/assets/image (11) (1).png>)
+![](<../../../../.gitbook/assets/image (11).png>)
 
 ## Collectors
 

@@ -10,7 +10,7 @@
 Rubeus triage
 ```
 
-![](<../../../../.gitbook/assets/image (3).png>)
+![](<../../../../.gitbook/assets/image (3) (1).png>)
 
 #### - Dump the tickets
 
@@ -56,7 +56,7 @@ rubeus ptt /ticket:
 
 ![](<../../../../.gitbook/assets/image (260).png>)
 
-![](../../../../.gitbook/assets/image.png)
+![](<../../../../.gitbook/assets/image (7).png>)
 
 #### cifs ticket injected&#x20;
 
