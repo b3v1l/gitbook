@@ -91,6 +91,7 @@
       * [Continuous Access Evaluation (CAE)](offsec/cloud-pentesting/azure-ad/03-azure-authentication/continuous-access-evaluation-cae.md)
       * [Tokens and CLI tools](offsec/cloud-pentesting/azure-ad/03-azure-authentication/tokens-and-cli-tools.md)
     * [04 - Audit/Enum Tools](offsec/cloud-pentesting/azure-ad/04-audit-enum-tools/README.md)
+      * [StormSpotter](offsec/cloud-pentesting/azure-ad/04-audit-enum-tools/stormspotter.md)
       * [ROADTools](offsec/cloud-pentesting/azure-ad/04-audit-enum-tools/roadtools.md)
 * [Evasion Techniques](offsec/evasions-techniques/README.md)
   * [AMSI bypass](offsec/evasions-techniques/amsi-bypass/README.md)
