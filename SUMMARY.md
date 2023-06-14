@@ -88,6 +88,7 @@
         * [Az Module](offsec/cloud-pentesting/azure-ad/02-recon/recon-as-an-authenticated-user/az-module.md)
         * [Azure AD module](offsec/cloud-pentesting/azure-ad/02-recon/recon-as-an-authenticated-user/azure-ad-module.md)
     * [03 - Azure Authentication](offsec/cloud-pentesting/azure-ad/03-azure-authentication/README.md)
+      * [Continuous Access Evaluation (CAE)](offsec/cloud-pentesting/azure-ad/03-azure-authentication/continuous-access-evaluation-cae.md)
       * [Tokens and CLI tools](offsec/cloud-pentesting/azure-ad/03-azure-authentication/tokens-and-cli-tools.md)
 * [Evasion Techniques](offsec/evasions-techniques/README.md)
   * [AMSI bypass](offsec/evasions-techniques/amsi-bypass/README.md)
