@@ -56,7 +56,7 @@ rubeus ptt /ticket:
 
 ![](<../../../../.gitbook/assets/image (260).png>)
 
-![](<../../../../.gitbook/assets/image (10).png>)
+![](<../../../../.gitbook/assets/image (9).png>)
 
 #### cifs ticket injected&#x20;
 
