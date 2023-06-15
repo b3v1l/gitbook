@@ -36,7 +36,7 @@ Find-LAPSDelegatedGroups
 Get-NetGroupMember -GroupName <GROUP_NAME>
 ```
 
-![](<../../../../.gitbook/assets/image (25) (1).png>)
+![](<../../../../.gitbook/assets/image (25).png>)
 
 ### Retrieve password
 

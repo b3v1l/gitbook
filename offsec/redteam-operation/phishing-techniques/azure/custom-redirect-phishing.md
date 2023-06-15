@@ -46,7 +46,7 @@ Certain permissions require an admin consent to work...
 
 By default, an user has the ability to set up an application (accept and consent for the organization).&#x20;
 
-![](<../../../../.gitbook/assets/image (28) (1).png>)
+![](<../../../../.gitbook/assets/image (28).png>)
 
 For instance, mail.read doesn't work for multi-tenant (same tenant is ...).
 
