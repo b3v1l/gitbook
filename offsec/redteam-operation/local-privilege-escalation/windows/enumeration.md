@@ -18,7 +18,7 @@ invoke-hostrecon
 
 #### Check for AV products, LAPS, firewall ...
 
-![](<../../../../.gitbook/assets/image (8) (1).png>)
+![](<../../../../.gitbook/assets/image (8).png>)
 
 ## LSASS protection
 
@@ -38,4 +38,4 @@ Applocker is not applied on Local System, Local Service or Network Service.
 get-childitem HKLM:\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe
 ```
 
-![](<../../../../.gitbook/assets/image (6) (1).png>)
+![](<../../../../.gitbook/assets/image (6).png>)

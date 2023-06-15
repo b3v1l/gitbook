@@ -86,7 +86,7 @@ Get-NetUser -UserName REX_ARMSTRONG
 Get-UserProperty -Properties pwdlastset
 ```
 
-![](<../../../../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (4) (1).png>)
 
 ### Users Fields
 

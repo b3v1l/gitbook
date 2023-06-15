@@ -4,7 +4,7 @@
 
 * Go to proxy, TLS passthrough and add the following :
 
-```text
+```
 .*\.google\.com 
 .*\.gstatic\.com
 .*\.mozilla\.com
@@ -14,5 +14,4 @@
 
 * Save the settings and load it at start
 
-![](../../../.gitbook/assets/image%20%2836%29.png)
-
+![](<../../../.gitbook/assets/image (36) (1).png>)
