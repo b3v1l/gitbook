@@ -15,7 +15,7 @@
 
 ![](<../../../.gitbook/assets/image (37).png>)
 
-![](<../../../.gitbook/assets/image (22) (1).png>)
+![](<../../../.gitbook/assets/image (22).png>)
 
 * Publish the app (select online only)
 

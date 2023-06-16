@@ -27,4 +27,4 @@ kdestroy
 export KRB5CCNAME=/tmp/krb5cc_581000500_testme
 ```
 
-![](<../../../../../.gitbook/assets/image (29) (1).png>)
+![](<../../../../../.gitbook/assets/image (29).png>)

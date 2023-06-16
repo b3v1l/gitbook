@@ -24,5 +24,5 @@ If the cache is enable you won't be able to retrieve new content ...
 
 ### Find a frontable domain and test it
 
-![](<../../../../.gitbook/assets/image (41).png>)
+![](<../../../../.gitbook/assets/image (41) (1).png>)
 

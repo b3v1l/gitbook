@@ -16,5 +16,5 @@
 
 * Save the settings and load it at start
 
-![](<../../../../.gitbook/assets/image (36).png>)
+![](<../../../../.gitbook/assets/image (36) (1).png>)
 
