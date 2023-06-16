@@ -83,7 +83,7 @@ Set-Cookie: JSESSIONID=62FC9D661A6E815FCC2FE73B5B8DA686; Path=/; HttpOnly
 
 * Modify the DOM path for Deploy
 
-![](<../../.gitbook/assets/image (46) (1).png>)
+![](<../../.gitbook/assets/image (46).png>)
 
 ### Access the webshell
 
