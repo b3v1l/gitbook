@@ -28,7 +28,7 @@ On the portal, register a new APP (which will be what the victim will see)
 
 Create an application display name, set the account type to "multi-tenant" and set the redirect link to the phishing web page&#x20;
 
-![](<../../../../.gitbook/assets/image (24).png>)
+![](<../../../../.gitbook/assets/image (24) (1).png>)
 
 ### API Permissions
 
@@ -46,7 +46,7 @@ Certain permissions require an admin consent to work...
 
 By default, an user has the ability to set up an application (accept and consent for the organization).&#x20;
 
-![](<../../../../.gitbook/assets/image (28).png>)
+![](<../../../../.gitbook/assets/image (28) (1).png>)
 
 For instance, mail.read doesn't work for multi-tenant (same tenant is ...).
 
@@ -62,7 +62,7 @@ Craft the URL which will be sent to the victim
 
 * Get the "application ID" from overview menu
 
-![](<../../../../.gitbook/assets/image (20) (1).png>)
+![](<../../../../.gitbook/assets/image (20) (1) (1).png>)
 
 * Replace the Client\_ID value in the following link. Same for URI\_redirect (using the **phishing instance url**)
 

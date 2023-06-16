@@ -4,7 +4,7 @@
 
 Payloads appear to beacon to popular domain and leverage SSL certificates of the CDN.
 
-![](<../../../../.gitbook/assets/image (107) (1).png>)
+![](<../../../../.gitbook/assets/image (107).png>)
 
 #### Domain fronting request example :
 

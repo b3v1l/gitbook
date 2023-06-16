@@ -48,7 +48,7 @@ git clone https://github.com/bugcrowd/HUNT
 
 * Add a python extension
 
-![](<../../../.gitbook/assets/image (21).png>)
+![](<../../../.gitbook/assets/image (21) (1).png>)
 
 * same thing for hunt\_Scanner.py
 

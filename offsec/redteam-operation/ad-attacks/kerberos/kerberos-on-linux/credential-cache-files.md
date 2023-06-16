@@ -3,11 +3,11 @@
 ## Credential Cache Files
 
 * compromise a logged user and use his tickets
-* ccached files :
+*   ccached files :
 
-   → located in /tmp
+    &#x20;→ located in /tmp
 
-![](../../../../../.gitbook/assets/image%20%28218%29.png)
+![](<../../../../../.gitbook/assets/image (218).png>)
 
 ### **Copy the ticket**
 
@@ -27,5 +27,4 @@ kdestroy
 export KRB5CCNAME=/tmp/krb5cc_581000500_testme
 ```
 
-![](../../../../../.gitbook/assets/image%20%2829%29.png)
-
+![](<../../../../../.gitbook/assets/image (29) (1).png>)
