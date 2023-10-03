@@ -82,6 +82,7 @@
         * [SSRF exploitation](offsec/cloud-pentesting/cloud-pentesting/08-infrastructure-attacks/web-applications/untitled.md)
   * [Azure AD](offsec/cloud-pentesting/azure-ad/README.md)
     * [01 - Initial Access](offsec/cloud-pentesting/azure-ad/01-initial-access/README.md)
+      * [temp](offsec/cloud-pentesting/azure-ad/01-initial-access/temp.md)
       * [Password Spraying](offsec/cloud-pentesting/azure-ad/01-initial-access/password-spraying.md)
       * [Consent and Permissions](offsec/cloud-pentesting/azure-ad/01-initial-access/consent-and-permissions/README.md)
         * [Illicit Consent Grant](offsec/cloud-pentesting/azure-ad/01-initial-access/consent-and-permissions/illicit-consent-grant.md)

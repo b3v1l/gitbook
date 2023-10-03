@@ -63,7 +63,7 @@ New-MachineAccount -MachineAccount fakeComputer -Password $(ConvertTo-SecureStri
 
 ![](<../../../../.gitbook/assets/image (293).png>)
 
-![](<../../../../.gitbook/assets/image (5).png>)
+![](<../../../../.gitbook/assets/image (5) (1).png>)
 
 `msDS-AllowedToActOnBehalfOfOtherIdentity` property stores the SID as part of a security descriptor in a binary format which needs to be converted.
 
