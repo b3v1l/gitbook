@@ -103,6 +103,8 @@
       * [BloodHound / AzureHound](offsec/cloud-pentesting/azure-ad/04-audit-enum-tools/bloodhound-azurehound.md)
       * [StormSpotter](offsec/cloud-pentesting/azure-ad/04-audit-enum-tools/stormspotter.md)
       * [ROADTools](offsec/cloud-pentesting/azure-ad/04-audit-enum-tools/roadtools.md)
+    * [05 - Privilege Escalation](offsec/cloud-pentesting/azure-ad/05-privilege-escalation/README.md)
+      * [Automation Account](offsec/cloud-pentesting/azure-ad/05-privilege-escalation/automation-account.md)
     * [05 - TODO](offsec/cloud-pentesting/azure-ad/05-todo.md)
 * [Evasion Techniques](offsec/evasions-techniques/README.md)
   * [AMSI bypass](offsec/evasions-techniques/amsi-bypass/README.md)
